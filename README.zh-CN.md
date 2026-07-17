@@ -1,4 +1,4 @@
-<h1 align="center">🧭 Agent UI Atlas</h1>
+<h1 align="center">Agent UI Atlas</h1>
 
 <p align="center">面向 AI Agent 的 UI 设计语言与风格参考索引。</p>
 
