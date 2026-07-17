@@ -1,4 +1,4 @@
-<h1 align="center">🧭 Agent UI Atlas</h1>
+<h1 align="center">Agent UI Atlas</h1>
 
 <p align="center">A curated atlas of UI design languages and style references for AI agents.</p>
 
