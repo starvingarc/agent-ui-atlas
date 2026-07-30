@@ -4,11 +4,9 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="catalogs/japanese-brand-styles.zh-CN.md">🇯🇵 420 个日本品牌 DESIGN.md</a></p>
+<p align="center"><sub>最后核对：<strong>2026-07-31</strong></sub></p>
 
-<p align="center"><sub>最后核对：<strong>2026-07-30</strong></sub></p>
-
-<p align="center"><code>🧩 316 种 UI / 参考风格</code> · <code>🖼️ 36 种图像素材风格</code> · <code>✨ 18 种动效风格</code></p>
+<p align="center"><code>🧩 703 种 UI / 参考风格</code> · <code>🖼️ 36 种图像素材风格</code> · <code>✨ 18 种动效风格</code></p>
 
 ## 🗺️ 目录
 
@@ -26,149 +24,536 @@
 
 | 风格名 | 英文名 / 别名 | 视觉特征 | 适合场景 | 上游来源 |
 |---|---|---|---|---|
+| &Premium 风格 | 日本品牌参考 · and-premium | 实测日系网页规范；白×黒、ミニマル、上質、editorial、雑誌、Montserrat、游ゴシック Light、グローバル palt、淡いパステル、アンパサンド | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/and-premium/DESIGN.md) |
+| 10X 风格 | 日本品牌参考 · 10x | 实测日系网页规范；クリーン、ミニマル、極太見出し、白地、Lexend、淡いグレー点描、pill ボタン、グレースケール＋淡いアクセント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/10x/DESIGN.md) |
+| 10YC 风格 | 日本品牌参考 · 10yc | 实测日系网页规范；モノクローム、D2C、Roboto 単一フォント、角ボタン（radius 0）、エディトリアル、Shopify、サステナブル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/10yc/DESIGN.md) |
+| 1616/arita 风格 | 日本品牌参考 · 1616arita | 实测日系网页规范；静謐、ギャラリー的、明朝体、ウォームニュートラル、写真中心、バイリンガル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/1616arita/DESIGN.md) |
+| 1LDK 风格 | 日本品牌参考 · 1ldk | 实测日系网页规范；ミニマル、モノクローム、欧文主導、エディトリアル、セレクトショップ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/1ldk/DESIGN.md) |
+| 21_21 DS 风格 | 日本品牌参考 · 2121designsight | 实测日系网页规范；ピュアホワイト × シアンブルー `#0090df`、アクセント橙 `#ff9900` の "NEW" バッジ、Noto Sans Japanese の **weight 600 見出し** + weight 400 本文の対比、letter-spacing は基本 `normal`、palt は使わない、円形（radius 50%）の言語切替ピル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/2121designsight/DESIGN.md) |
+| 45R 风格 | 日本品牌参考 · 45r | 实测日系网页规范；藍染め、インディゴ #1c2940、A1 Gothic、Morisawa、レール（線）色 #e5e7e9、矩形 + 6px 角丸、ヘリテージ、藍の白、現代和風 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/45r/DESIGN.md) |
+| ABEMA 风格 | 日本品牌参考 · abema | 实测日系网页规范；ダーク、没入感、エンタメ、コンテンツファースト、鮮やか | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/abema/DESIGN.md) |
+| ACTUS 风格 | 日本品牌参考 · actus | 实测日系网页规范；純白・純黒のモノトーン、Source Sans 3 + Noto Sans JP の細身欧文混植、letter-spacing 1px (≈0.07em) でゆったり字送り、角丸ゼロ、ボタンも「VIEW ALL」のテキストリンクのみ、ライトグレー面 `#e8eaea` で写真の影に | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/actus/DESIGN.md) |
 | Adobe Spectrum 风格 | Spectrum 色彩与组件系统 | 中性工作表面、光谱强调色、精密状态层 | 创意软件、媒体工具和复杂专业工作流 | [Adobe Spectrum](https://github.com/adobe/spectrum-design-data) |
+| aeru 风格 | 日本品牌参考 · aeru | 实测日系网页规范；朱色、伝統工芸、温かみ、和モダン、バイリンガル、pill CTA、palt | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/aeru/DESIGN.md) |
+| Aesop 风格 | 日本品牌参考 · aesop | 实测日系网页规范；アポセカリー、文学的、クリーム色、スイス・モダニズム、禁欲的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/aesop/DESIGN.md) |
+| Afternoon Tea 风格 | 日本品牌参考 · afternoontea | 实测日系网页规范；ディープグリーン、Dosis ジオメトリック、wide letter-spacing 1.12px、温かみ、ライフスタイル、フェミニン、シャープコーナー CTA | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/afternoontea/DESIGN.md) |
+| AGC 风格 | 日本品牌参考 · agc | 实测日系网页规范；ディープネイビー、コーポレート、精密、クールトーン、シャープコーナー、素材メーカーの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/agc/DESIGN.md) |
 | Airbnb 风格 | 暖色旅行平台 | 暖珊瑚色、圆润控件、摄影主导 | 旅行、预订和消费平台 | [Airbnb DESIGN.md](https://getdesign.md/airbnb/design-md) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/airbnb) |
 | Airtable 风格 | 彩色结构化数据界面 | 彩色强调、友好网格、结构化数据 | 数据库、运营工具和协作表格 | [Airtable DESIGN.md](https://getdesign.md/airtable/design-md) |
+| Ajinomoto 风格 | 日本品牌参考 · ajinomoto | 实测日系网页规范；Ajinomoto Red、pill ナビ、UD新ゴ、デュアルフォントスタック、アクセシビリティ、食と健康 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ajinomoto/DESIGN.md) |
+| AKOMEYA 风格 | 日本品牌参考 · akomeya | 实测日系网页规范；クリーム、亜麻色、米色、明朝体、游明朝、和モダン、温かい、暮らし、丁寧、抹茶（緑のギフトCTA）、漆黒（強調） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/akomeya/DESIGN.md) |
+| ALBION 风格 | 日本品牌参考 · albion | 实测日系网页规范；洗練、上品、軽やか、静謐、モダンラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/albion/DESIGN.md) |
+| amadana 风格 | 日本品牌参考 · amadana | 实测日系网页规范；インダストリアル・ミニマル、ギャラリーキュレーション、ダークモード展示、赤アクセント、単一フォント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/amadana/DESIGN.md) |
+| Ambientec 风格 | 日本品牌参考 · ambientec | 实测日系网页规范；ミニマル / 上質 / 硬質 / 静か / エディトリアル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ambientec/DESIGN.md) |
+| AMBUSH 风格 | 日本品牌参考 · ambush | 实测日系网页规范；avant-garde, monochrome, minimal, editorial, luxury | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ambush/DESIGN.md) |
+| ANA 风格 | 日本品牌参考 · ana | 实测日系网页规范；ANA ブルー、ピル CTA、白ヘッダー、ヒラギノ角ゴシック、航空ブランドの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ana/DESIGN.md) |
+| and wander 风格 | 日本品牌参考 · andwander | 实测日系网页规范；ダークモードデフォルト、ミニマル、ハイファッションアウトドア、欧文先頭、小さなベースサイズ、タイポグラフィ駆動 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/andwander/DESIGN.md) |
+| ANREALAGE 风格 | 日本品牌参考 · anrealage | 实测日系网页规范；Helvetica、モノクローム、ギャラリー型 EC、極小テキスト、無装飾、写真主役、角丸ゼロ、アヴァンギャルド、ミニマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/anrealage/DESIGN.md) |
 | Ant Design 风格 | 企业级中式设计语言 | 清晰蓝色强调、密集表单、结构化企业组件 | 后台系统、企业 SaaS 和数据密集业务应用 | [Ant Design](https://github.com/ant-design/ant-design) |
-| 苹果风格 | 高端产品极简主义 | 大量留白、SF 系字体、电影感产品图 | 消费产品、移动应用和高端落地页 | [Apple DESIGN.md](https://getdesign.md/apple/design-md) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/apple) |
+| 苹果风格 | 高端产品极简主义 | 大量留白、SF 系字体、电影感产品图 | 消费产品、移动应用和高端落地页 | [Apple DESIGN.md](https://getdesign.md/apple/design-md) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/apple) · [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/apple/DESIGN.md) |
 | Arc 浏览器风格 | 俏皮奶油彩虹浏览器 | 奶油画布、彩虹渐变、大圆角、俏皮浏览器框架 | 消费工具、浏览器和友好效率应用 | [StyleSeed Arc skin](https://github.com/bitjaru/styleseed/blob/main/skins/arc/skin.json) |
+| Artizon 风格 | 日本品牌参考 · artizon | 实测日系网页规范；タイポグラフィ / 端正 / 力強い / モダン / 額装 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/artizon/DESIGN.md) |
+| ARTS&SCIENCE 风格 | 日本品牌参考 · arts-science | 实测日系网页规范；ギャラリー的、静謐、タイムレス、セリフ体、ミニマル、控えめな贅沢、クラフト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/arts-science/DESIGN.md) |
+| Asahi Beer 风格 | 日本品牌参考 · asahibeer | 实测日系网页规范；爽快、親しみやすい、コーポレート、清潔、プロモーション重視 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/asahibeer/DESIGN.md) |
+| ASKUL 风格 | 日本品牌参考 · askul | 实测日系网页规范；実用的、効率的、高密度、信頼感、業務向け | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/askul/DESIGN.md) |
+| ATON 风格 | 日本品牌参考 · aton | 实测日系网页规范；ラグジュアリーミニマル、極小タイポグラフィ、モノクローム、ウォームベージュ、シャープエッジ、ルックブック型EC | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/aton/DESIGN.md) |
+| au 风格 | 日本品牌参考 · au | 实测日系网页规范；信頼感、クリーン、親しみやすい、コンシューマーフレンドリー、オレンジアクセント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/au/DESIGN.md) |
+| Audio-Technica 风格 | 日本品牌参考 · audio-technica | 实测日系网页规范；シャープ、テクニカル、プレミアム、ミニマル、精密 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/audio-technica/DESIGN.md) |
+| AURALEE 风格 | 日本品牌参考 · auralee | 实测日系网页规范；ペールグレー、極小タイポグラフィ、Marcellus セリフ、gill-sans-nova、ブラウンがかった黒、letter-spacing 0.7px、breathy、minimal、無彩色、breathy（息遣いのある余白） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/auralee/DESIGN.md) |
 | AWS Cloudscape 风格 | 云运维设计系统 | 结构化导航、密集资源表格和克制蓝灰层级 | 云控制台、基础设施工具和企业运维 | [AWS Cloudscape](https://github.com/cloudscape-design/components) |
+| AXIS 风格 | 日本品牌参考 · axis | 实测日系网页规范；純白 #ffffff、モノクローム、AXIS Font、DIN、グレー面 #f1f1f1、line-height 1.0（緊密）、letter-spacing なし、palt オフ、editorial、ニュートラル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/axis/DESIGN.md) |
+| BAKE 风格 | 日本品牌参考 · bake | 实测日系网页规范；紙の余韻、明朝体本文、Gill Sans の特大欧文、`palt` 全面適用、letter-spacing 0.1em、印刷物的階調 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bake/DESIGN.md) |
 | BALMUDA 风格 | 精密家电极简主义 | 黑白克制、电影感产品细节和大量留白 | 高端硬件和产品发布 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/balmuda/DESIGN.md) |
+| BANDAI NAMCO 风格 | 日本品牌参考 · bandainamco | 实测日系网页规范；ダークキャンバス、コンテンツファースト、ポータル型高密度、プラットフォームバッジ、シャープエッジ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bandainamco/DESIGN.md) |
+| BAPE 风格 | 日本品牌参考 · bape | 实测日系网页规范；モノクローム、角型 0px 徹底、12px ミニマルテキスト、Helvetica Neue 欧文優先、ストリートラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bape/DESIGN.md) |
+| BASE 风格 | 日本品牌参考 · base | 实测日系网页规范；ティールグリーン、フレンドリー、ピル CTA、Gilroy × TazuganeGothicStdN、palt 全体適用 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/base/DESIGN.md) |
+| BASE FOOD 风格 | 日本品牌参考 · basefood | 实测日系网页规范；ウォームイエロー、D2C ナチュラル、ピル CTA、黒ヒーロー＋白面のコントラスト、完全栄養食の信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/basefood/DESIGN.md) |
+| BAUM 风格 | 日本品牌参考 · baum | 实测日系网页规范；ボタニカル / パーチメント / エディトリアル / ミニマル / 温かみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/baum/DESIGN.md) |
+| BAYCREW'S 风格 | 日本品牌参考 · baycrew | 实测日系网页规范；モノクローム、ミニマル、プロダクトファースト、ユーティリタリアン、ファッション EC | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/baycrew/DESIGN.md) |
+| BEAMS 风格 | 日本品牌参考 · beams | 实测日系网页规范；編集型、フラット、ニュートラルグレー、装飾を抑えた、スタッフ主導 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/beams/DESIGN.md) |
+| Benesse 风格 | 日本品牌参考 · benesse | 实测日系网页规范；ウォームグレー、コーポレートブルー、エディトリアル大型見出し、Koburina Gothic の端正な字面、教育・生活事業の信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/benesse/DESIGN.md) |
 | Binance 风格 | 高紧迫感交易界面 | 黄黑高对比、密集市场信息 | 加密交易所和交易看板 | [Binance DESIGN.md](https://getdesign.md/binance/design-md) |
+| BIOTOP 风格 | 日本品牌参考 · biotop | 实测日系网页规范；din-2014、全面写真、白抜き文字、ディープグリーン #354443、大文字英字、ピルタグ、palt、余白、エディトリアル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/biotop/DESIGN.md) |
+| Blue Bottle 风格 | 日本品牌参考 · bluebottlecoffee | 实测日系网页规范；静謐、スカイブルー、ゴーストCTA、ウェイト400統一、ゆとりのある行間、コーヒーハウスの余白 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bluebottlecoffee/DESIGN.md) |
 | BMW 风格 | 德式高端汽车 | 高端暗色表面、精密模块构图 | 汽车、工业和高端产品网站 | [BMW DESIGN.md](https://getdesign.md/bmw/design-md) |
 | BMW M 风格 | 赛车性能风格 | 赛车高对比、M 色条、技术精度 | 性能产品和运动科技 | [BMW M DESIGN.md](https://getdesign.md/bmw-m/design-md) |
+| BOTANIST 风格 | 日本品牌参考 · botanist | 实测日系网页规范；ボタニカル、グレーブルー、二書体システム、エディトリアル、写真オーバーレイ、半透明CTA、ワイドスペーシング | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/botanist/DESIGN.md) |
+| Bridgestone 风格 | 日本品牌参考 · bridgestone | 实测日系网页规范；堅実、構造的、フラット、グレースケール、信頼 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bridgestone/DESIGN.md) |
+| Brother 风格 | 日本品牌参考 · brother | 实测日系网页规范；ディープネイビー、コーポレート信頼感、游ゴシック、情報整理、シャープな角形UI、"at your side" の親しみやすさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/brother/DESIGN.md) |
 | BRUTUS 杂志风格 | 日本文化杂志 | 醒目封面、编辑网格、多变字体和策展摄影 | 文化、生活方式和杂志叙事 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/brutus/DESIGN.md) |
 | Bugatti 风格 | 电影黑超奢华 | 电影黑、单色克制、纪念碑式大字 | 奢侈品发布和高端产品展示 | [Bugatti DESIGN.md](https://getdesign.md/bugatti/design-md) |
 | 字节跳动 Semi Design 风格 | 现代企业组件语言 | 清晰几何、可调令牌和精致数据密集组件 | 企业 SaaS、后台工具和协作产品 | [Semi Design](https://github.com/DouyinFE/semi-design) |
+| cado 风格 | 日本品牌参考 · cado | 实测日系网页规范；プレミアム家電、ダーク＆ホワイト、Cormorant セリフ、4フォントシステム、outline CTA、プロダクト・フォワード、ミニマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cado/DESIGN.md) |
 | Cal.com 风格 | 中性日程极简 | 干净中性色、简单结构、开发者友好控件 | 日程和效率 SaaS | [Cal.com DESIGN.md](https://getdesign.md/cal/design-md) |
+| CAMPFIRE 风格 | 日本品牌参考 · campfire | 实测日系网页规范；白基調、情報密度、カードグリッド、ブランドレッド、プロジェクト閲覧性 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/campfire/DESIGN.md) |
+| Canon 风格 | 日本品牌参考 · canon | 实测日系网页规范；Canon Red、Noto Sans JP 統一、pill ボタン、モダンコーポレート、プレミアム感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/canon/DESIGN.md) |
 | Canonical Vanilla 风格 | Ubuntu 产品设计语言 | 茄紫强调、暖中性色、精确网格和文档清晰度 | 开源产品、云平台和技术网站 | [Vanilla Framework](https://github.com/canonical/vanilla-framework) |
 | Canva 风格 | 友好创意工作台 | 明亮渐变、圆润控件、亲和模板和视觉优先层级 | 创意编辑器、模板产品和大众设计工具 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/canva/DESIGN.md) |
+| CAPCOM 风格 | 日本品牌参考 · capcom | 实测日系网页规范；コーポレートポータル、セクションカラー色分け、コンパクト組版、レガシーCSS、ヒラギノ角ゴ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/capcom/DESIGN.md) |
+| Casa BRUTUS 风格 | 日本品牌参考 · casa-brutus | 实测日系网页规范；純白 + 漆黒、ノーマル字間（letter-spacing normal）、square CTA（border-radius 0px）、Helvetica Neue 欧文先頭、ヒラギノ ProN（Pro ではない点に注意）、line-height 1.5、雑誌的タイポグラフィ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/casa-brutus/DESIGN.md) |
+| CASIO 风格 | 日本品牌参考 · casio | 实测日系网页规范；精密、堅実、先端、クリーン、角張り | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/casio/DESIGN.md) |
+| Celvoke 风格 | 日本品牌参考 · celvoke | 实测日系网页规范；ミニマル / モノクローム / エディトリアル / 洗練 / ボタニカル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/celvoke/DESIGN.md) |
+| CFCL 风格 | 日本品牌参考 · cfcl | 实测日系网页规范；セリフ×ゴシック二層構造、角丸ゼロ、超軽量ウェイト、コレクション EC、テクノロジー×クラフト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cfcl/DESIGN.md) |
+| Chatwork 风格 | 日本品牌参考 · chatwork | 实测日系网页规范；ウォームニュートラル、ブランドレッド、信頼性、中小企業向け、ダークネイビーフッター | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/chatwork/DESIGN.md) |
+| CHOYA 风格 | 日本品牌参考 · choya | 实测日系网页规范；明朝体、伝統、グリーン、マルチカラーカテゴリ、ゴーストボタン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/choya/DESIGN.md) |
+| CIBONE 风格 | 日本品牌参考 · cibone | 实测日系网页规范；ライフスタイル、青山、インテリア、雑貨、編集、ネイビー、矩形、雑誌的、品揃え | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cibone/DESIGN.md) |
+| CINRA 风格 | 日本品牌参考 · cinra | 实测日系网页规范；エディトリアル / カルチャー / クリーン / 端正 / 情報設計 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cinra/DESIGN.md) |
 | Cisco 风格 | 网络企业清晰风格 | 冷蓝配色、模块图示和可靠企业构图 | 网络、安全和企业基础设施 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/cisco/DESIGN.md) |
+| CITIZEN 风格 | 日本品牌参考 · citizen | 实测日系网页规范；プロダクト・ファースト、ダークネイビー、モダンゴシック、精密、実用美、グローバル palt | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/citizen/DESIGN.md) |
+| CLAS 风格 | 日本品牌参考 · clas | 实测日系网页规范；ナチュラル、ウォーム、幾何学サンセリフ、ピルボタン、暮らし／サステナブル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/clas/DESIGN.md) |
+| CLASKA 风格 | 日本品牌参考 · claska | 实测日系网页规范；ギャラリー的、エディトリアル、ミニマル、純白、極小テキスト、角丸ゼロ、フラット | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/claska/DESIGN.md) |
 | Claude 风格 | 暖色出版型 AI | 奶油纸色、赤陶橙、出版物排版 | AI 产品、思考型工具和长内容 | [Claude DESIGN.md](https://getdesign.md/claude/design-md) · [Huashu](https://github.com/alchaincyf/huashu-design/blob/master/references/design-styles.md) |
 | Clay 风格 | 艺术指导型有机渐变 | 有机形状、柔和渐变、不对称艺术指导 | 创意机构和表达型产品网站 | [Clay DESIGN.md](https://getdesign.md/clay/design-md) |
 | ClickHouse 风格 | 黄色技术文档 | 黄色强调、技术布局、文档优先层级 | 数据库、分析和技术文档 | [ClickHouse DESIGN.md](https://getdesign.md/clickhouse/design-md) |
+| Clé de Peau 风格 | 日本品牌参考 · cledepeau | 实测日系网页规范；ラグジュアリー、ライトウェイト（300）、ウォームクリーム、ダークネイビー、抑制 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cledepeau/DESIGN.md) |
+| COEDO 风格 | 日本品牌参考 · coedo | 实测日系网页规范；セリフ、クラフト、ヘリテージ、ゴールドアクセント、角丸ゼロ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/coedo/DESIGN.md) |
 | Cohere 风格 | 鲜艳企业 AI | 鲜艳渐变、几何形态、数据密集看板 | 企业 AI 平台和分析产品 | [Cohere DESIGN.md](https://getdesign.md/cohere/design-md) |
+| COHINA 风格 | 日本品牌参考 · cohina | 实测日系网页规范；ウォームクリーム、Optima 見出し、アースカラー、ワイドトラッキング、フェミニン、D2C ファッション | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cohina/DESIGN.md) |
 | Coinbase 风格 | 机构化加密金融 | 干净蓝色、宽松布局、信任导向层级 | 金融科技、钱包和机构产品 | [Coinbase DESIGN.md](https://getdesign.md/coinbase/design-md) |
 | Composio 风格 | 彩色集成暗色界面 | 现代暗色表面和彩色集成图标 | 集成目录和 Agent 工具平台 | [Composio DESIGN.md](https://getdesign.md/composio/design-md) |
+| connpass 风格 | 日本品牌参考 · connpass | 实测日系网页规范；実用的、シンプル、情報密度、オレンジ、エンジニア向け | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/connpass/DESIGN.md) |
 | Cookpad 风格 | 友好家庭料理工具 | 暖橙色、食谱摄影和实用步骤层级 | 餐饮、食谱和家庭服务 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cookpad/DESIGN.md) |
+| cotogoto 风格 | 日本品牌参考 · cotogoto | 实测日系网页规范；明朝体、生成り、手仕事、文芸、端正、高円寺 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cotogoto/DESIGN.md) |
+| cowcamo 风格 | 日本品牌参考 · cowcamo | 实测日系网页规范；クールグレー、ティールアクセント、フラット、物件写真ファースト、二面性（マーケットプレイス × マガジン） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cowcamo/DESIGN.md) |
+| Creema 风格 | 日本品牌参考 · creema | 实测日系网页规范；温かい、クラフト感、繊細、混植、パステル、商品ファースト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/creema/DESIGN.md) |
 | Cursor 风格 | 顺滑 AI 开发者暗色 | 暗色表面、克制渐变、代码产品构图 | AI 编程工具和开发者产品 | [Cursor DESIGN.md](https://getdesign.md/cursor/design-md) |
+| CyberAgent 风格 | 日本品牌参考 · cyberagent | 实测日系网页规范；ウォームグレー、グリーンアクセント、ダークヒーロー、YuGothic、コーポレート | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cyberagent/DESIGN.md) |
+| Cybozu 风格 | 日本品牌参考 · cybozu | 实测日系网页规范；誠実、チームワーク、読みやすい、ゆったり、信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cybozu/DESIGN.md) |
+| Cygames 风格 | 日本品牌参考 · cygames | 实测日系网页规范；モノクローム、重厚、ボールド、ゲーミング、コンテンツファースト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cygames/DESIGN.md) |
 | D&DEPARTMENT 风格 | 长效设计编辑风格 | 目录网格、土红蓝强调和手工艺记录 | 手工艺、地域文化和策展电商 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ddepartment/DESIGN.md) |
+| D-BROS 风格 | 日本品牌参考 · d-bros | 实测日系网页规范；Inter × Yu Gothic、マゼンタアクセント、weight 300 統一、Tailwind CSS、デザイナーズプロダクト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/d-bros/DESIGN.md) |
+| DAIKIN 风格 | 日本品牌参考 · daikin | 实测日系网页规范；コーポレートネイビー、ゴールドアクセント、メイリオ、情報設計重視、安定感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/daikin/DESIGN.md) |
+| DAISO 风格 | 日本品牌参考 · daiso | 实测日系网页规范；ポップ、元気、親しみやすい、カラフル、バラエティ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/daiso/DESIGN.md) |
+| Dandelion 风格 | 日本品牌参考 · dandelionchocolate | 实测日系网页规范；明朝体、ウォームクリーム、ゴールド CTA、pill ボタン、全ウェイト 400、ダークチャコール、クラフト感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dandelionchocolate/DESIGN.md) |
+| DASSAI 风格 | 日本品牌参考 · dassai | 实测日系网页规范；純白背景、深インディゴ、明朝セリフ基調、極広行間、広字間、角型CTA | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dassai/DESIGN.md) |
+| DDD HOTEL 风格 | 日本品牌参考 · dddhotel | 实测日系网页规范；オフホワイト #fafafa、ニアブラック #040404、ブロンズ #856d47、Cardo セリフ、明朝、特大タイポ、余白、テキストリンク主体、editorial、モノクローム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dddhotel/DESIGN.md) |
+| DEAN&DELUCA 风格 | 日本品牌参考 · deandeluca | 实测日系网页规范；純白背景、黒基調、游明朝見出し、游ゴシック本文、全幅ヒーロー、円形CTA、ウォームブラウン、バイリンガルラベル、フードフォトグラフィー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/deandeluca/DESIGN.md) |
+| DECORTÉ 风格 | 日本品牌参考 · decorte | 实测日系网页规范；ラグジュアリー、ミニマル、モノクローム、建築的、静謐 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/decorte/DESIGN.md) |
+| DELFONICS 风格 | 日本品牌参考 · delfonics | 实测日系网页规范；朱赤 #ff3700、Neue Frutiger World、特大英字ディスプレイ、純黒 #000000、黒の角丸ボタン、白縁ピルタグ、行間2.3、palt | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/delfonics/DESIGN.md) |
 | Dell 1996 风格 | 目录时代企业网页 | 黑色页面框、彩带卡片、Times 正文、GIF 贴纸 | 年代复刻网页和怀旧目录 | [Dell 1996 DESIGN.md](https://getdesign.md/dell-1996/design-md) |
+| DeNA 风格 | 日本品牌参考 · dena | 实测日系网页规范；マルチカラー、大胆なタイポグラフィ、余白、雑誌的、エンターテインメント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dena/DESIGN.md) |
+| dentsu 风格 | 日本品牌参考 · dentsu | 实测日系网页规范；ニューモーフィック、ソフト、コーポレート、クリーン、信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dentsu/DESIGN.md) |
+| DESCENTE 风格 | 日本品牌参考 · descente | 实测日系网页规范；ダークネイビー、RivieraNights フォント、スポーツ × ファッション、ミニマル、ハイコントラスト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/descente/DESIGN.md) |
 | 日本数字厅风格 | 无障碍公共数字服务 | 高可读性、直白结构和可靠政务蓝 | 政府、公共服务和关键表单 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/digital-go/DESIGN.md) |
 | Discord 风格 | 社区优先暗色社交界面 | 蓝紫强调、暗色分层表面、紧凑频道和趣味图标 | 社区、聊天产品和多人协作 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/discord/DESIGN.md) |
+| Discover Japan 风格 | 日本品牌参考 · discoverjapan | 实测日系网页规范；エディトリアル / 和モダン / 上質 / 明朝 / 誌面的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/discoverjapan/DESIGN.md) |
+| DRAFT 风格 | 日本品牌参考 · draft | 实测日系网页规范；モノクローム、黒ヒーロー／白グリッド、ギャラリー、ハイコントラスト・セリフ（PPEiko）、Graphik、游ゴシック Pr6N、dashed pill フィルター、余白、editorial | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/draft/DESIGN.md) |
+| Droga5 风格 | 日本品牌参考 · droga5 | 实测日系网页规范；Bold Typography, Minimal, High Contrast, Creative, Purpose-driven | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/droga5/DESIGN.md) |
+| DULTON 风格 | 日本品牌参考 · dulton | 实测日系网页规范；インダストリアル、アメリカンヴィンテージ、ネイビーブルー、フラット＆角形、バイリンガル見出し | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/dulton/DESIGN.md) |
 | 多邻国风格 | 游戏化学习亲和风格 | 鲜绿色、圆润卡片、吉祥物活力和丰富奖励反馈 | 学习应用、引导流程和习惯养成产品 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/duolingo/DESIGN.md) · [TypeUI](https://github.com/bergside/awesome-design-skills/tree/main/skills/lingo) |
 | Elastic EUI 风格 | 搜索与可观测设计系统 | 信息密集面板、语义色和精确分析控件 | 搜索、安全、可观测和分析产品 | [Elastic EUI](https://github.com/elastic/eui) |
 | ElevenLabs 风格 | 电影感音频界面 | 电影黑表面、声波母题、蓝紫信号色 | 语音 AI、音乐、播客和音频产品 | [ElevenLabs DESIGN.md](https://getdesign.md/elevenlabs/design-md) · [Huashu](https://github.com/alchaincyf/huashu-design/blob/master/references/design-styles.md) |
+| ENEOS 风格 | 日本品牌参考 · eneos | 实测日系网页规范；信頼、堅実、コーポレート、整然、エネルギー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/eneos/DESIGN.md) |
+| Epson 风格 | 日本品牌参考 · epson | 实测日系网页规范；堅実、クリーン、情報整理、コーポレート、テクノロジー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/epson/DESIGN.md) |
 | Expo 风格 | 代码导向移动开发界面 | 暗色主题、紧凑字体、代码主导区块 | 移动开发平台和 SDK 文档 | [Expo DESIGN.md](https://getdesign.md/expo/design-md) |
+| FABRIC TOKYO 风格 | 日本品牌参考 · fabrictokyo | 实测日系网页规范；モノクローム、Lato ファースト、ワイドトラッキング、ピル CTA、D2C テイラードの洗練 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/fabrictokyo/DESIGN.md) |
+| FANCL 风格 | 日本品牌参考 · fancl | 实测日系网页规范；清潔、信頼、やさしい、ブルー基調、無添加 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/fancl/DESIGN.md) |
+| FELISSIMO 风格 | 日本品牌参考 · felissimo | 实测日系网页规范；親しみやすい、クリーン、シアンブルー、カタログ型、ハンドメイド | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/felissimo/DESIGN.md) |
 | Ferrari 风格 | 稀疏红色汽车编辑风 | 明暗黑白和极少量法拉利红 | 豪华汽车和性能叙事 | [Ferrari DESIGN.md](https://getdesign.md/ferrari/design-md) |
 | Figma 风格 | 多彩专业俏皮 | 鲜艳多色、模块化工具、专业俏皮感 | 设计工具和创意协作软件 | [Figma DESIGN.md](https://getdesign.md/figma/design-md) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/figma) |
 | Framer 风格 | 动效优先黑蓝风 | 黑蓝配色、大字、动效驱动产品叙事 | 建站工具和交互作品集 | [Framer DESIGN.md](https://getdesign.md/framer/design-md) |
+| Francfranc 风格 | 日本品牌参考 · francfranc | 实测日系网页规范；フェミニン、ブラッシュピンク、エレガント、ミニマルCTA、細やかなレタースペーシング、システムフォント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/francfranc/DESIGN.md) |
 | freee 风格 | 友好小企业金融科技 | 明亮蓝、亲和插画和引导式工作流 | 会计、财务和小企业工具 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/freee/DESIGN.md) |
+| FUJIFILM 风格 | 日本品牌参考 · fujifilm | 实测日系网页规范；ユニバーサルデザイン、精密、信頼、コーポレート、FUJIFILM レッド、Condensed 見出し、palt 全面適用 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/fujifilm/DESIGN.md) |
+| Fujitsu 风格 | 日本品牌参考 · fujitsu | 实测日系网页规范；先進的、力強い、信頼、テクノロジー、グラデーション | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/fujitsu/DESIGN.md) |
+| GANZO 风格 | 日本品牌参考 · ganzo | 实测日系网页规范；Rokkitt、スラブセリフ、ブラウングレー、Wide Spacing、Sharp Corners、コードバン、クラフト、静謐、抑制 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ganzo/DESIGN.md) |
+| GINZA SIX 风格 | 日本品牌参考 · ginza6 | 实测日系网页规范；ゴールド、銀座、ラグジュアリー、矩形、Univers、編集、洗練 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ginza6/DESIGN.md) |
 | GitHub Primer 风格 | 开发平台设计系统 | 中性表面、紧凑控件、语义色和清晰代码层级 | 开发平台、代码仓库和技术协作 | [GitHub Primer](https://github.com/primer/css) |
+| Glico 风格 | 日本品牌参考 · glico | 实测日系网页规范；Glico Red、pill CTA、ウォームクリーム、游ゴシック、菓子ブランド、親しみやすさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/glico/DESIGN.md) |
+| GO 风格 | 日本品牌参考 · goinc | 实测日系网页规范；クリーン、信頼感、白基調、GO ブルー、堂々とした大見出し、ピル型 CTA、数字組み（lnum/pnum） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/goinc/DESIGN.md) |
+| Goldwin 风格 | 日本品牌参考 · goldwin | 实测日系网页规范；アウトドア、テクニカル、デュアルフォント、palt グローバル適用、ライトウェイト 300、ダークチャコール | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/goldwin/DESIGN.md) |
 | Good Design Award 风格 | 日本设计奖编辑风格 | 红色 G 标、克制画廊和证据导向项目展示 | 奖项、作品集和设计档案 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/g-mark/DESIGN.md) |
+| good design company 风格 | 日本品牌参考 · good-design-company | 实测日系网页规范；モノクローム、純白 #fff、ライトグレー #f5f5f5、明朝体（century-old-style-std）、ゴースト・ボタン、広い余白、エディトリアル、静謐、palt なし | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/good-design-company/DESIGN.md) |
+| Goodpatch 风格 | 日本品牌参考 · goodpatch | 实测日系网页规范；ブランドブルー、Galano Grotesque の幾何学的な字面、游ゴシック体 Pr6N の正統派和文、オレンジグラデーション、デザインカンパニーの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/goodpatch/DESIGN.md) |
 | Google Material Design 3 风格 | Material You | 色调角色、表达型形状、层级阴影和自适应组件 | Android、跨平台产品和可扩展设计系统 | [Material Web](https://github.com/material-components/material-web) |
 | GOV.UK 风格 | 英国公共服务设计 | 黑色正文、大量留白、强蓝链接、明确表单状态 | 政府服务、公共信息和无障碍事务流程 | [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) |
+| graf 风格 | 日本品牌参考 · graf | 实测日系网页规范；ミニマル、アート／ギャラリー、極細ウェイト、余白、モノクローム＋チャコール、作家性、editorial | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/graf/DESIGN.md) |
+| graniph 风格 | 日本品牌参考 · graniph | 实测日系网页规范；カラフル、ポップ、アートフル、カジュアル、親しみやすい | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/graniph/DESIGN.md) |
+| Graphpaper 风格 | 日本品牌参考 · graphpaper | 实测日系网页规范；Helvetica、極小タイポ、直角（radius 0）、純白 #fff、ニアブラック #212121、ヘアライン #f1f1f1、スレートブルー #8191a4、金 #ab8c52（お知らせ）、大文字ラベル、エディトリアル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/graphpaper/DESIGN.md) |
+| GREEN SPOON 风格 | 日本品牌参考 · greenspoon | 实测日系网页规范；Warm Ivory / Natural Green / Editorial Food / Lifestyle Luxury / Handcrafted Feel | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/greenspoon/DESIGN.md) |
+| groovisions 风格 | 日本品牌参考 · groovisions | 实测日系网页规范；モノクロ、Helvetica Neue Light、中間グレー #9f9f9f、ニアブラック #333333、アクセント色なし、匿名性、体系性、余白、ヘアライン、weight 400 のみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/groovisions/DESIGN.md) |
+| GU 风格 | 日本品牌参考 · gu | 实测日系网页规范；Light Weight, Airy, Price-Focused, Minimal Palette, Affordable Fashion | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/gu/DESIGN.md) |
+| Hands 风格 | 日本品牌参考 · hands | 实测日系网页规范；ダークグリーン、高密度リテール、実用的、システムフォント、フラットボタン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hands/DESIGN.md) |
+| HARIO 风格 | 日本品牌参考 · hario | 实测日系网页规范；ミディアムグレー、Jost geometric sans、抑制的、クリーン、カテゴリバッジ、モノクロマティック、透明感、精密 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hario/DESIGN.md) |
+| HASAMI 风格 | 日本品牌参考 · hasami-porcelain | 实测日系网页规范；モノクローム、建築的、コンデンスド、静謐、プロダクトファースト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hasami-porcelain/DESIGN.md) |
 | HashiCorp 风格 | 企业基础设施黑白风 | 干净黑白、模块化基础设施图 | DevOps、基础设施和企业平台 | [HashiCorp DESIGN.md](https://getdesign.md/hashicorp/design-md) |
+| HASUNA 风格 | 日本品牌参考 · hasuna | 实测日系网页规范；Times New Roman、セリフ一系統、無彩色グレー、#363636、#666666、角丸 0px、行間 2.4、矩形ボタン、エシカル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hasuna/DESIGN.md) |
+| Hender Scheme 风格 | 日本品牌参考 · henderscheme | 实测日系网页规范；ウルトラライト、Futura モノフォント、純白、モノクローム、weight 100、手仕事、経年変化 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/henderscheme/DESIGN.md) |
+| HERALBONY 风格 | 日本品牌参考 · heralbony | 实测日系网页规范；アーティスティック、インクルーシブ、ギャラリー、ネイビー、ウォーム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/heralbony/DESIGN.md) |
+| HIGASHIYA 风格 | 日本品牌参考 · higashiya | 实测日系网页规范；静謐、余白、ギャラリー、和紙、書、引き算の美学 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/higashiya/DESIGN.md) |
+| HIGHTIDE 风格 | 日本品牌参考 · hightide | 实测日系网页规范；静謐、エディトリアル、温かみ、プロダクトファースト、文具の佇まい | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hightide/DESIGN.md) |
+| Honda 风格 | 日本品牌参考 · honda | 实测日系网页规范；精密、角形、インダストリアル、クリーン、自信 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/honda/DESIGN.md) |
 | 星野度假村风格 | 精致目的地叙事 | 氛围摄影、日式安静和行程导向编辑 | 旅行、酒店和高端体验 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hoshinoresorts/DESIGN.md) |
+| HOSOO 风格 | 日本品牌参考 · hosoo | 实测日系网页规范；静謐、品格、禁欲的、工芸的、余白 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hosoo/DESIGN.md) |
 | HP 风格 | 电光蓝几何科技 | 纯白画布、电光蓝 CTA、几何装饰 | 硬件、企业科技和产品电商 | [HP DESIGN.md](https://getdesign.md/hp/design-md) |
 | Hugging Face 风格 | 友好开放机器学习社区 | 暖黄色、表情式角色线索和实用模型卡片 | AI 社区、模型平台和开发者教育 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/huggingface/DESIGN.md) |
+| HUMAN MADE 风格 | 日本品牌参考 · humanmade | 实测日系网页规范；ストリートウェア、ポップカルチャー、ヴィンテージ、シャープCTA、カラフル、Avenir Next、weight 400 統一 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/humanmade/DESIGN.md) |
+| HYKE 风格 | 日本品牌参考 · hyke | 实测日系网页规范；ミニマル、モノクローム、ギャラリー、建築的、抑制 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hyke/DESIGN.md) |
 | IBM 风格 | Carbon 企业系统 | 结构化蓝色、严格网格、实用组件 | 企业软件、数据和复杂工作流 | [IBM DESIGN.md](https://getdesign.md/ibm/design-md) · [IBM Carbon](https://github.com/carbon-design-system/carbon) |
+| IDÉE 风格 | 日本品牌参考 · idee | 实测日系网页规范；純白背景、深紺アクセント、Helvetica + 游ゴシック Pr6n、letter-spacing wide、palt、line-height 1.0 のタイト見出し、長方形 48px ライン CTA、角丸ゼロ、YakuHanJP 約物処理 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/idee/DESIGN.md) |
+| IKEUCHI 风格 | 日本品牌参考 · ikeuchi | 实测日系网页规范；オーガニック、アースカラー、Gidole ジオメトリックサンセリフ、3フォントシステム、pill CTA、ミニマル、今治タオル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ikeuchi/DESIGN.md) |
 | Instructure UI 风格 | 无障碍教育设计系统 | 清晰层级、稳健表单和无障碍优先组件 | 学习平台、教育管理和课程工具 | [Instructure UI](https://github.com/instructure/instructure-ui) |
 | Intercom 风格 | 友好对话式 SaaS | 友好蓝色、圆润对话模式 | 消息、客服和对话产品 | [Intercom DESIGN.md](https://getdesign.md/intercom/design-md) |
+| IPSA 风格 | 日本品牌参考 · ipsa | 实测日系网页规范；ウォームミニマル、パーソナライズ、科学的ビューティー、静謐、クリーム色調 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ipsa/DESIGN.md) |
 | ISSEY MIYAKE 风格 | 雕塑感时尚现代主义 | 实验轮廓、艺术画廊留白和精确排版 | 时尚、展览和艺术导向电商 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/isseymiyake/DESIGN.md) |
+| ITOKI 风格 | 日本品牌参考 · itoki | 实测日系网页规范；Noto Sans JP、コーポレートネイビー、ブルーグレーグラデーション、pill CTA（100px radius）、line-height 1.8、クリーン・信頼・誠実 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/itoki/DESIGN.md) |
+| ITOYA 风格 | 日本品牌参考 · itoya | 实测日系网页规范；老舗の品格、建築的な直線（radius 0px）、欧文リードの知性、温かみのあるアース系副色、クリーンなグレースケール | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/itoya/DESIGN.md) |
+| JAL 风格 | 日本品牌参考 · jal | 实测日系网页规范；JALレッド、ブラックヘッダー、ピル CTA、航空ブランドの信頼感、Noto Sans JP 統一 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/jal/DESIGN.md) |
 | JetBrains Ring UI 风格 | 开发者工具组件语言 | 紧凑控件、锐利排版和 IDE 式交互模式 | 开发者工具、问题跟踪和技术运维 | [Ring UI](https://github.com/JetBrains/ring-ui) |
+| JILL STUART Beauty 风格 | 日本品牌参考 · jillstuart-beauty | 实测日系网页规范；フェミニン、エレガント、プリンセス、ウォームピンク、甘美 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/jillstuart-beauty/DESIGN.md) |
+| JINS 风格 | 日本品牌参考 · jins | 实测日系网页规范；Tazugane Gothic、JINS Next、ブランドレッド `#ca2029`、CSS 変数完備、商品 EC、ニュートラル多階調グレー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/jins/DESIGN.md) |
+| JR東日本 风格 | 日本品牌参考 · jreast | 实测日系网页规范；信頼、機能的、自然、グリーン、インフラ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/jreast/DESIGN.md) |
+| K5 风格 | 日本品牌参考 · k5 | 实测日系网页规范；白面、大判写真、極細ウェイト、游ゴシック、K5type、palt、曖昧、エディトリアル、ディープブルー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/k5/DESIGN.md) |
+| KALDI 风格 | 日本品牌参考 · kaldi | 实测日系网页规范；温かい、コーヒー色、クラフト感、食欲をそそる、親しみやすい | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kaldi/DESIGN.md) |
+| Kalita 风格 | 日本品牌参考 · kalita | 实测日系网页规范；インダストリアル、グレートーン、シャープ、ミニマル、道具的精密さ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kalita/DESIGN.md) |
+| Kao 风格 | 日本品牌参考 · kao | 实测日系网页规范；Teal ブランドカラー、UD フォント、ウォームグレー、ナチュラル、アクセシビリティ、サステナビリティ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kao/DESIGN.md) |
+| KAPITAL 风格 | 日本品牌参考 · kapital | 实测日系网页规范；ダークブラウン、Kameron セリフ、Courier New モノスペース、ボーダーCTA、直角、クラフト、ヴィンテージ、フォークロア | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kapital/DESIGN.md) |
+| Karimoku NS 风格 | 日本品牌参考 · karimoku-newstandard | 实测日系网页规范；モリサワ A-OTF 太ゴ B101 Pr6N、nimbus-sans、純白純黒、全 weight 400、和欧二段組、negative letter-spacing、square、ALL CAPS、CTAなし | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/karimoku-newstandard/DESIGN.md) |
+| KASHIYAMA 风格 | 日本品牌参考 · kashiyama | 实测日系网页规范；プレミアムミニマル、ダークチャコール、ミュートカラー、大判フォト、テーラリング | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kashiyama/DESIGN.md) |
+| KEYENCE 风格 | 日本品牌参考 · keyence | 实测日系网页规范；テクニカル、信頼性、高機能、赤アクセント、B2B プロフェッショナル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/keyence/DESIGN.md) |
+| KEYUCA 风格 | 日本品牌参考 · keyuca | 实测日系网页规范；ナチュラル、静謐、ウォームグレー、line-height 2.0、Medium 500 統一、バイリンガル階層 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/keyuca/DESIGN.md) |
+| KIGI 风格 | 日本品牌参考 · kigi | 实测日系网页规范；ライトグレー #e6e6e6、暗褐色 #221815、極小筑紫ゴシック 10px、特大 Helvetica 65px、アシッドティール #00c69e、ミント #00ffcc、palt グローバル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kigi/DESIGN.md) |
+| KING JIM 风格 | 日本品牌参考 · kingjim | 实测日系网页规范；コーポレートブルー、堅実、システムフォント、情報整理、日本の老舗メーカー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kingjim/DESIGN.md) |
 | KINTO 风格 | 安静日式产品生活 | 柔和中性色、触感摄影和安静居家节奏 | 家居、生活方式和产品目录 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kinto/DESIGN.md) |
+| KIRIN 风格 | 日本品牌参考 · kirin | 实测日系网页规范；KIRIN Red、pill CTA、Roboto ファースト、ウォームクリーム、年齢確認、飲料ブランド | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kirin/DESIGN.md) |
+| KOKUYO 风格 | 日本品牌参考 · kokuyo | 实测日系网页规范；Helvetica Now Text、田鶴ゴシック StdN（Morisawa）、Curiosity is Life、OKLCH パレット、カテゴリカラータイル、palt 適用、純白背景、モジュラーナビ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kokuyo/DESIGN.md) |
+| kolor 风格 | 日本品牌参考 · kolor | 实测日系网页规范；ネイビーモノクローム、スイス・グロテスク、建築的、前衛、直線（radius 0）、イエローの一点差し、余白グリッド、palt 字詰め | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kolor/DESIGN.md) |
+| Komeda 风格 | 日本品牌参考 · komeda | 实测日系网页规范；温かい、親しみやすい、くつろぎ、街の喫茶店、ホスピタリティ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/komeda/DESIGN.md) |
+| KOSÉ 风格 | 日本品牌参考 · kose | 实测日系网页规范；フェミニン、清潔、コーラルピンク、シャープ、上品 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kose/DESIGN.md) |
+| Kracie 风格 | 日本品牌参考 · kracie | 实测日系网页规范；ウォームクリーム、ビビッドイエロー、マルチカラー、UD新ゴ（ユニバーサルデザイン）、消費財の親しみやすさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kracie/DESIGN.md) |
 | Kraken 风格 | 紫色密集交易看板 | 紫色强调暗色界面和密集市场数据 | 交易、金融和实时看板 | [Kraken DESIGN.md](https://getdesign.md/kraken/design-md) |
+| KUMON 风格 | 日本品牌参考 · kumon | 实测日系网页规范；親しみやすい、カラフル、教育的、信頼感、あたたかみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kumon/DESIGN.md) |
+| KUON 风格 | 日本品牌参考 · kuon | 实测日系网页规范；職人、伝統布工芸、セリフ・ファースト、エディトリアル、ネイビーアクセント、シャープエッジ、Quiet Luxury | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kuon/DESIGN.md) |
+| KURAND 风格 | 日本品牌参考 · kurand | 实测日系网页规范；クラフト酒、温かみ、ゴールド、Zen Kaku Gothic New、Noto Sans Japanese、モダン EC、丸角、Tailwind CSS | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kurand/DESIGN.md) |
+| KURKKU FIELDS 风格 | 日本品牌参考 · kurkkufields | 实测日系网页规范；カテゴリカラーコーディング、Noto Sans JP、アースカラー、オリーブグリーン、直角（radius 0）、広い字間、サステナブル、静謐 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kurkkufields/DESIGN.md) |
+| Kyash 风格 | 日本品牌参考 · kyash | 实测日系网页规范；Kyash Blue（シアン）、ヒラギノ角ゴ palt、フィンテックの信頼感、カード UI、ほぼ白の `#fdfdfd` 背景 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kyash/DESIGN.md) |
+| Kyocera 风格 | 日本品牌参考 · kyocera | 实测日系网页规范；堅実、信頼、ニュートラル、コーポレート、控えめ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kyocera/DESIGN.md) |
 | Lamborghini 风格 | 黑金殿堂式奢华 | 纯黑、金色强调、锐利宏大字体 | 奢侈品、汽车和戏剧化产品发布 | [Lamborghini DESIGN.md](https://getdesign.md/lamborghini/design-md) |
+| Landscape Products 风格 | 日本品牌参考 · landscape-products | 实测日系网页规范；ギャラリー / イメージフォワード / 黒のステージ / 寡黙 / ニュートラル グロテスク | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/landscape-products/DESIGN.md) |
+| LAWSON 风格 | 日本品牌参考 · lawson | 实测日系网页规范；親しみやすい、清潔、丸み、ブルー基調、実用的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lawson/DESIGN.md) |
+| LayerX 风格 | 日本品牌参考 · layerx | 实测日系网页规范；ネイビー×パープル、デュアルフォントシステム、PPMori の欧文グリフ、モダン金融テック、上質感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/layerx/DESIGN.md) |
+| LEMNOS 风格 | 日本品牌参考 · lemnos | 实测日系网页规范；静謐、モノクローム、余白、プロダクトギャラリー、デュアルフォント、デザイナーズクロック | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lemnos/DESIGN.md) |
+| LEXUS 风格 | 日本品牌参考 · lexus | 实测日系网页规范；ラグジュアリー、ミニマル、無装飾、上質、静謐、フォトジェニック | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lexus/DESIGN.md) |
+| LIFULL 风格 | 日本品牌参考 · lifull | 实测日系网页规范；オレンジ、ウォーム、LIFULL フォント、pill CTA、不動産テック、ゆったり行間 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lifull/DESIGN.md) |
 | LINE 风格 | 友好消息生态 | LINE 绿、圆润角色和清晰对话模式 | 消息、社交工具和消费服务 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/line/DESIGN.md) |
 | Linear 风格 | 精密紫色产品极简 | 超极简暗色、细分割线、克制紫色 | 任务管理、Agent 控制台和效率 SaaS | [Linear DESIGN.md](https://getdesign.md/linear.app/design-md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/linear/skin.json) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/linear) |
+| LIXIL 风格 | 日本品牌参考 · lixil | 实测日系网页规范；ウォームクリーム、LIXIL Orange、シャープエッジ CTA、ヒラギノ角ゴ、住宅設備、実用・信頼 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lixil/DESIGN.md) |
+| LOFT 风格 | 日本品牌参考 · loft | 实测日系网页规范；ロフトイエロー、システムフォント、実用的、親しみやすさ、雑貨店の賑やかさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/loft/DESIGN.md) |
+| Loftwork 风格 | 日本品牌参考 · loftwork | 实测日系网页规范；クリエイティブ / エディトリアル / 大胆 / イエロー / 知的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/loftwork/DESIGN.md) |
 | Loom 风格 | 友好异步视频风格 | 柔紫色、大圆角卡片和以人为本的录制流程 | 视频协作、异步工作和创作者工具 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/loom/DESIGN.md) |
+| LOTTE 风格 | 日本品牌参考 · lotte | 实测日系网页规范；ロッテレッド、バイリンガル見出し、ボールドヘビー、コンパクト line-height、ウォームニュートラル面 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lotte/DESIGN.md) |
 | Lovable 风格 | 友好渐变构建器 | 俏皮渐变、亲和文案、友好开发者质感 | AI 构建器和入门型开发工具 | [Lovable DESIGN.md](https://getdesign.md/lovable/design-md) |
+| LOWYA 风格 | 日本品牌参考 · lowya | 实测日系网页规范；ミニマル、モノトーン、シャープ、プロダクトファースト、ユーティリタリアン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lowya/DESIGN.md) |
+| LUMINE 风格 | 日本品牌参考 · lumine | 实测日系网页规范；モノクローム、エディトリアル、洗練、静謐、ファッション | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lumine/DESIGN.md) |
+| LUPICIA 风格 | 日本品牌参考 · lupicia | 实测日系网页规范；ウォームニュートラル、アースカラー、余白、プレミアム感、茶道的ミニマリズム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lupicia/DESIGN.md) |
+| LUSH 风格 | 日本品牌参考 · lush | 实测日系网页规范；シアトリカル、プレイフル、イマーシブ、ダーク、カラフル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/lush/DESIGN.md) |
+| LUUP 风格 | 日本品牌参考 · luup | 实测日系网页规范；ミニマル、ティールアクセント、Roobert の国際的テック感、軽いウェイト、都市モビリティ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/luup/DESIGN.md) |
+| Mame Kurogouchi 风格 | 日本品牌参考 · mamekurogouchi | 实测日系网页规范；ギャラリー型、Adobe Garamond Pro + 游明朝、全要素 11px 統一、モノクロームグレー、セリフ一貫、palt なし、ホワイトキューブ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mamekurogouchi/DESIGN.md) |
+| MARKAWARE 风格 | 日本品牌参考 · markaware | 实测日系网页规范；エシカル、ナチュラル、静謐、クラフト、抑制、暖色オフホワイト #f7f6f3、純黒 #000、ABC Diatype、游ゴシック、ピル型アウトライン CTA、ウェイト 400 統一、palt、広い余白 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/markaware/DESIGN.md) |
+| MARKS&WEB 风格 | 日本品牌参考 · marksandweb | 实测日系网页规范；ボタニカル、モノクローム、Noto Sans JP、矩形 CTA（radius 0）、バイリンガル見出し、フラット、無装飾、植物由来 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/marksandweb/DESIGN.md) |
 | Mastercard 风格 | 暖色轨道金融编辑风 | 奶油画布、轨道胶囊形、暖色编辑感 | 支付、金融和企业叙事 | [Mastercard DESIGN.md](https://getdesign.md/mastercard/design-md) |
+| Mazda 风格 | 日本品牌参考 · mazda | 实测日系网页规范；MazdaType 専有書体、palt グローバル ON、letter-spacing 広め、ピル型 CTA（border-radius 900px）、銅色 `#8d7057` のリンク、エコグリーン `#468254` のサステナアクセント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mazda/DESIGN.md) |
+| Meiji 风格 | 日本品牌参考 · meiji | 实测日系网页规范；清潔、健康的、ファミリー向け、明治レッド、広い行間 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/meiji/DESIGN.md) |
 | Mercari 风格 | 亲和二手交易市场 | 明亮红、友好卡片和照片优先发布流程 | 市场、二手交易和消费电商 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mercari/DESIGN.md) |
 | Meta 风格 | 摄影优先蓝色零售 | 摄影主导、明暗分区、蓝色 CTA | 硬件商店和消费产品生态 | [Meta DESIGN.md](https://getdesign.md/meta/design-md) |
 | Meta Astryx 风格 | 表达型令牌主题系统 | 醒目展示字、趣味配色和可配置品牌表面 | 营销、原型和表达型消费产品 | [Astryx](https://github.com/facebook/astryx) |
+| MF 风格 | 日本品牌参考 · moneyforward | 实测日系网页规范；堅実、信頼性、業務的、効率的、和文優先 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/moneyforward/DESIGN.md) |
 | Microsoft Fluent 风格 | Fluent 2 设计系统 | 分层中性表面、克制色彩、柔和深度和熟悉控件 | 企业效率、协作和微软式应用 | [Fluent UI](https://github.com/microsoft/fluentui) |
+| MIKIMOTO 风格 | 日本品牌参考 · mikimoto | 实测日系网页规范；ラグジュアリー、真珠の光沢、シャンパンゴールド、セリフ見出し、ワイドトラッキング、品格ある余白 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mikimoto/DESIGN.md) |
+| Minimal 风格 | 日本品牌参考 · minimal | 实测日系网页规范；Bean to Bar、モノクローム、Poppins + 游ゴシック、引き算、クラフトモダン、ダーク写真 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/minimal/DESIGN.md) |
 | MiniMax 风格 | 大胆霓虹 AI 暗色 | 大胆暗色界面和鲜明霓虹强调 | AI 模型平台和未来感产品发布 | [MiniMax DESIGN.md](https://getdesign.md/minimax/design-md) |
 | Mintlify 风格 | 绿色阅读型文档 | 干净文档表面、绿色强调、清晰导航 | 文档、API 参考和知识库 | [Mintlify DESIGN.md](https://getdesign.md/mintlify/design-md) |
 | Miro 风格 | 亮黄无限画布 | 亮黄强调、空间工具、协作画布模式 | 白板、视觉规划和协作 | [Miro DESIGN.md](https://getdesign.md/miro/design-md) |
 | Mistral AI 风格 | 法式紫色极简 | 工程化极简、紫色调、清晰字体 | AI 基础设施和技术品牌网站 | [Mistral AI DESIGN.md](https://getdesign.md/mistral.ai/design-md) |
+| MIXI 风格 | 日本品牌参考 · mixi | 实测日系网页规范；ミニマル、コーポレート、レッドアクセント、フルワイドビジュアル、ホワイトスペース | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mixi/DESIGN.md) |
+| Mizuno 风格 | 日本品牌参考 · mizuno | 实测日系网页规范；スポーツ、機能的、ライト＆クリーン、ダークCTA、グリッドEC | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mizuno/DESIGN.md) |
+| MOHEIM 风格 | 日本品牌参考 · moheim | 实测日系网页规范；オフホワイト #f1f2ee、ミニマル、uppercase、余白、モノクローム、TT Commons、Yu Gothic、静謐、timeless | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/moheim/DESIGN.md) |
 | MongoDB 风格 | 绿色开发者文档 | 叶绿色识别、清晰代码示例、文档导向 | 数据库、API 和开发者教育 | [MongoDB DESIGN.md](https://getdesign.md/mongodb/design-md) |
+| mont-bell 风格 | 日本品牌参考 · montbell | 实测日系网页规范；メイリオ、ネイビー、ベージュ、直角ボタン、実用主義、道具感、自然・山岳 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/montbell/DESIGN.md) |
+| MOONSTAR 风格 | 日本品牌参考 · moonstar | 实测日系网页规范；ストイック、クール、モノトーン、ヘリテージ、ギャラリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/moonstar/DESIGN.md) |
+| Morinaga 风格 | 日本品牌参考 · morinaga | 实测日系网页规范；森永レッド、pill CTA、游ゴシック Medium、白基調、製菓ブランド、信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/morinaga/DESIGN.md) |
+| MOS BURGER 风格 | 日本品牌参考 · mosburger | 实测日系网页规范；温かい、親しみやすい、ナチュラル、グリーン、フレンドリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mosburger/DESIGN.md) |
+| MOSH 风格 | 日本品牌参考 · mosh | 实测日系网页规范；温かい、軽やか、IBM Plex JP の整った字面、コーラルレッドのアクセント、SaaS らしいクリーンさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mosh/DESIGN.md) |
+| MOTHERHOUSE 风格 | 日本品牌参考 · motherhouse | 实测日系网页规范；ソーシャルブランド、Lato 欧文先頭、グレー CTA、ナチュラルトーン、Shopify、職人、途上国 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/motherhouse/DESIGN.md) |
 | Mozilla Protocol 风格 | 开放网络编辑系统 | 粗体排版、黑白基底和鲜艳营销强调 | 开放网络产品、编辑页面和倡议网站 | [Mozilla Protocol](https://github.com/mozilla/protocol) |
+| mt 风格 | 日本品牌参考 · mt | 实测日系网页规范；かわいい、上品、クラフト、プレミアム、日本らしい、温もり | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mt/DESIGN.md) |
 | 无印良品风格 | 无名自然极简主义 | 牛皮纸中性色、诚实产品摄影和克制排版 | 零售、家居、生活方式和安静服务设计 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/muji/DESIGN.md) |
+| mybest 风格 | 日本品牌参考 · mybest | 实测日系网页规范；システムフォント、情報密度、ECグリーン、ゴールドバッジ、データドリブン、比較表 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mybest/DESIGN.md) |
+| nanamica 风格 | 日本品牌参考 · nanamica | 实测日系网页规范；静謐、機能的、ミニマル、プレミアム、モノクローム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nanamica/DESIGN.md) |
+| NANGA 风格 | 日本品牌参考 · nanga | 实测日系网页规范；モノトーン、黒主体、ピル CTA、Roboto、Noto Sans JP、アウトドア、ストリート、タフネス | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nanga/DESIGN.md) |
+| nano universe 风格 | 日本品牌参考 · nanouniverse | 实测日系网页规范；シャープ、モノトーン、ジオメトリック、都市的、洗練 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nanouniverse/DESIGN.md) |
+| NDC 风格 | 日本品牌参考 · ndc | 实测日系网页规范；エディトリアル、可変フォント、3言語対応、明朝×サンセリフの混在、超精緻、デザイン会社の矜持 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ndc/DESIGN.md) |
+| NEIGHBORHOOD 风格 | 日本品牌参考 · neighborhood | 实测日系网页规范；コンデンスドボールド、ネガティブ letter-spacing、シャープエッジ（radius 0px）、ニアブラック #222222、ミリタリー / インダストリアル、タイトライン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/neighborhood/DESIGN.md) |
 | nendo 风格 | 概念物件极简主义 | 大量留白、趣味概念转折和物件中心摄影 | 设计工作室、物件和概念作品集 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nendo/DESIGN.md) |
+| NEWT 风格 | 日本品牌参考 · newt | 实测日系网页规范；鮮やかグリーン、フレンドリー、pill ボタン、角丸カード、システムフォント、デザイントークン、写真主導、アプリ的UI | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/newt/DESIGN.md) |
 | NHS 风格 | 公共服务无障碍风格 | 高可读字体、强蓝色、明确操作和安心层级 | 医疗、公共服务和高信任表单 | [NHS Frontend](https://github.com/nhsuk/nhsuk-frontend) |
 | Nike 风格 | 黑白运动大字风 | 超大大写字、黑白界面、全屏摄影 | 运动、时尚和营销电商 | [Nike DESIGN.md](https://getdesign.md/nike/design-md) |
+| niko and... 风格 | 日本品牌参考 · nikoand | 实测日系网页规范；エディトリアル、マガジン、プレイフル、モノクロ＋季節色、絵文字ナビゲーション、ryo-gothic-plusn | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nikoand/DESIGN.md) |
+| Nikon 风格 | 日本品牌参考 · nikon | 实测日系网页规范；フォトジェニック、テクノロジカル、信頼感、クリーン、プロフェッショナル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nikon/DESIGN.md) |
 | 任天堂现代风格 | 趣味大众娱乐风格 | 原色、清晰角色和欢乐无障碍导航 | 游戏、家庭产品和角色生态 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nintendo/DESIGN.md) |
 | Nintendo.com 2001 风格 | Y2K 游戏机金属界面 | 斜面金属面板、网点碳纹、琥珀光、像素角色 | Y2K 游戏网站和怀旧交互体验 | [Nintendo.com 2001 DESIGN.md](https://getdesign.md/nintendo-2001/design-md) |
+| NISSAN 风格 | 日本品牌参考 · nissan | 实测日系网页规范；角型CTA、NISSAN Red、ダークヘッダー、ShinGoPro の端正な字面、自動車メーカーの堅実さ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nissan/DESIGN.md) |
+| Nissin 风格 | 日本品牌参考 · nissin | 实测日系网页规范；ダーク、ボールド、イマーシブ、メディアファースト、プレミアムフード | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nissin/DESIGN.md) |
+| NOHGA HOTEL 风格 | 日本品牌参考 · nohga-hotel | 实测日系网页规范；チャコールグレー #54565a、ブロンズ／カーキ #877b61、ニアブラック #1e1f21、幾何学サンセリフ（英字）、ヒラギノ角ゴ（和文）、広いトラッキング、アーシー、ソフィスティケート、アート／音楽／食 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nohga-hotel/DESIGN.md) |
+| NOT A HOTEL 风格 | 日本品牌参考 · notahotel | 实测日系网页规范；アーキテクチャル、プレミアム、イマーシブ、ダークUI、コンデンスド | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/notahotel/DESIGN.md) |
 | note 日本风格 | 温和创作者出版 | 柔绿、干净阅读节奏和低门槛发布工具 | 写作、创作者社区和出版 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/note/DESIGN.md) |
-| Notion 风格 | 暖色编辑型工作区 | 暖色极简、衬线标题、柔和中性色表面 | 知识工具、编辑器和效率工作区 | [Notion DESIGN.md](https://getdesign.md/notion/design-md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/notion/skin.json) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/notion) |
+| Notion 风格 | 暖色编辑型工作区 | 暖色极简、衬线标题、柔和中性色表面 | 知识工具、编辑器和效率工作区 | [Notion DESIGN.md](https://getdesign.md/notion/design-md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/notion/skin.json) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/notion) · [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/notion/DESIGN.md) |
+| Notion Dev 风格 | 日本品牌参考 · notion-dev | 实测日系网页规范；dev、BSOD blue、DOS、cobalt、sharp corner、dot-matrix、mono accent | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/notion-dev/DESIGN.md) |
+| Novasell 风格 | 日本品牌参考 · novasell | 实测日系网页规范；大胆、エネルギッシュ、ネオン、モノクロ+アクセント、テクノロジー感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/novasell/DESIGN.md) |
+| NTT Group 风格 | 日本品牌参考 · ntt | 实测日系网页规范；信頼、クリーン、コーポレートブルー、構造的、フォーマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ntt/DESIGN.md) |
+| NTTドコモ 风格 | 日本品牌参考 · docomo | 实测日系网页规范；コーポレート、レッドアイデンティティ、カード型UI、やわらかな角丸、親しみやすさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/docomo/DESIGN.md) |
 | NVIDIA 风格 | 绿黑技术力量感 | 绿黑能量、技术图示、高性能语气 | AI 硬件、算力和技术发布 | [NVIDIA DESIGN.md](https://getdesign.md/nvidia/design-md) |
+| objcts.io 风格 | 日本品牌参考 · objcts-io | 实测日系网页规范；ミディアムグレー、レザーの質感、ギャラリー型、抑制、プロダクト写真中心 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/objcts-io/DESIGN.md) |
+| Oisix 风格 | 日本品牌参考 · oisix | 实测日系网页规范；自然、信頼、品格、エディトリアル、オリーブグリーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/oisix/DESIGN.md) |
 | Ollama 风格 | 黑白本地终端 | 终端优先黑白极简和朴素留白 | 本地 AI 工具、CLI 和模型目录 | [Ollama DESIGN.md](https://getdesign.md/ollama/design-md) |
+| OMO 风格 | 日本品牌参考 · omo | 实测日系网页规范；黒地、ネオンイエロー #fff778、ポップ、遊び心、街遊び、ダークモード、Zen Kaku Gothic Antique、施設別アクセント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/omo/DESIGN.md) |
+| OMRON 风格 | 日本品牌参考 · omron | 实测日系网页规范；コーポレートブルー、信頼、クリーン、テクノロジー＆ヘルスケア、Roboto + Noto Sans JP の和欧混植 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/omron/DESIGN.md) |
+| ONIBUS COFFEE 风格 | 日本品牌参考 · onibuscoffee | 实测日系网页规范；アイボリー地 / スペシャルティ / 角ゼロ / 疎な字間 / 焙煎所 / クラフト EC | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/onibuscoffee/DESIGN.md) |
+| Onitsuka Tiger 风格 | 日本品牌参考 · onitsukatiger | 实测日系网页规范；ラグジュアリー・ストリートウェア、モノクローム、エディトリアル、ヨーロピアンタイプフェイス、プロダクトセンター | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/onitsukatiger/DESIGN.md) |
 | OpenAI / Codex 风格 | 专注型 AI 工作台 | 中性表面、精确等宽细节和克制 Agent 状态线索 | AI 助手、编程 Agent 和研究工作台 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/openai/DESIGN.md) · [TypeUI Codex](https://github.com/bergside/awesome-design-skills/tree/main/skills/codex) |
 | OpenCode 风格 | 开发者暗色编程界面 | 暗色编程表面、终端线索、紧凑技术层级 | 编程 Agent、IDE 和开发者控制台 | [OpenCode DESIGN.md](https://getdesign.md/opencode.ai/design-md) |
+| ORBIS 风格 | 日本品牌参考 · orbis | 实测日系网页规范；スキンサイエンス、ウォームブラウン、クリームホワイト、コーラルアクセント、コマース、ナチュラルトーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/orbis/DESIGN.md) |
+| OSAJI 风格 | 日本品牌参考 · osaji | 实测日系网页规范；スキンケア、ダークグリーン、Noto Sans Japanese、Zen Old Mincho、矩形 CTA（radius 0）、四季、内省、エシカル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/osaji/DESIGN.md) |
+| OWNDAYS 风格 | 日本品牌参考 · owndays | 实测日系网页规范；クリーンホワイト、リンクブルー、ジオメトリックサンセリフ、広い行間、プロダクトファースト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/owndays/DESIGN.md) |
 | Palantir Blueprint 风格 | 密集分析应用界面 | 紧凑暗色控件、数据密集面板和桌面级交互 | 运维、情报和复杂分析工具 | [Blueprint](https://github.com/palantir/blueprint) |
+| Panasonic 风格 | 日本品牌参考 · panasonic | 实测日系网页规范；ニュートラルグレー、プロダクトフォーカス、ゴーストCTA、Noto Sans JP の端正さ、家電メーカーの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/panasonic/DESIGN.md) |
+| PARCO 风格 | 日本品牌参考 · parco | 实测日系网页规范；純白背景、濃グレー文字、letter-spacing 広め、palt 有効、見出しは weight 700 + 字間 +0.1em、角丸ゼロ、罫線で区切る | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/parco/DESIGN.md) |
 | PayPay 风格 | 高清晰移动支付 | 红色标识、大操作区和安心导向交易状态 | 支付、钱包和日常金融科技 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/paypay/DESIGN.md) |
+| Pen Online 风格 | 日本品牌参考 · penonline | 实测日系网页规范；モノクローム、Optima Nova LT Pro（欧文）+ FOT-筑紫ゴシック Pr5 D（和文）の混植、letter-spacing 0.04〜0.17em の幅広い字間設計、palt 全面適用、純白・純黒・グレーのみ、塗りつぶさない line-only ボタン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/penonline/DESIGN.md) |
 | Perplexity 风格 | 引用优先答案界面 | 纸感中性色、简洁来源和搜索中心对话布局 | 研究 Agent、答案引擎和证据型产品 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/perplexity/DESIGN.md) |
+| PILOT 风格 | 日本品牌参考 · pilot | 实测日系网页规范；清潔・品格・ブランドブルー・シャープなエッジ・広い字間・和文 medium ウェイト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/pilot/DESIGN.md) |
 | Pinterest 风格 | 图片优先瀑布流发现 | 瀑布流、图片卡片、红色操作强调 | 灵感库、视觉搜索和媒体收藏 | [Pinterest DESIGN.md](https://getdesign.md/pinterest/design-md) |
 | pixiv 风格 | 插画社区平台 | 作品优先网格、蓝色强调和创作者元数据 | 艺术社区、作品集和粉丝平台 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/pixiv/DESIGN.md) |
+| Plaid 风格 | 日本品牌参考 · plaid | 实测日系网页规范；モノトーン、ダークヘッダー、洗練、広ストローク、データドリブン SaaS | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/plaid/DESIGN.md) |
 | PlayStation 风格 | 青色交互游戏零售 | 明暗层级、青色悬停信号、游戏图像 | 游戏商店、娱乐平台和发布页 | [PlayStation DESIGN.md](https://getdesign.md/playstation/design-md) |
+| PLST 风格 | 日本品牌参考 · plst | 实测日系网页规范；Light Weight, Refined, Soft Contrast, Minimal, Grown-up Fashion | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/plst/DESIGN.md) |
+| POLA 风格 | 日本品牌参考 · pola | 实测日系网页规范；ミニマル、モノクローム、Yu Gothic、palt、エディトリアル、余白、ラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/pola/DESIGN.md) |
 | POPEYE 杂志风格 | 城市男孩生活编辑 | 趣味排版、密集图注和纪实生活摄影 | 生活方式、城市指南和青年文化 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/popeye/DESIGN.md) |
+| POSTALCO 风格 | 日本品牌参考 · postalco | 实测日系网页规范；革製品、文房具、暖色オフホワイト、Jost、極淡グレー、矩形に近い角丸 3px、控えめなティール、ストア兼アーカイブ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/postalco/DESIGN.md) |
+| PostCoffee 风格 | 日本品牌参考 · postcoffee | 实测日系网页规范；Clean White / Vivid Green Accent / Playful D2C / Product Grid / Diagnosis-driven | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/postcoffee/DESIGN.md) |
 | PostHog 风格 | 俏皮开发者分析 | 暗色开发者界面、吉祥物趣味、暖色强调 | 产品分析和开发者看板 | [PostHog DESIGN.md](https://getdesign.md/posthog/design-md) |
+| PRESS BUTTER SAND 风格 | 日本品牌参考 · buttersand | 实测日系网页规范；ドラマティック、和洋折衷、オレンジレッド、明朝体、シネマティック、高級菓子 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/buttersand/DESIGN.md) |
+| PUEBCO 风格 | 日本品牌参考 · puebco | 实测日系网页规范；インダストリアル / ヴィンテージ / found object / ギャラリー / セリフ エディトリアル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/puebco/DESIGN.md) |
+| Qiita 风格 | 日本品牌参考 · qiita | 实测日系网页规范；テクニカル、クリーン、読みやすい、コードフレンドリー、開発者向け | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/qiita/DESIGN.md) |
+| RAKSUL 风格 | 日本品牌参考 · raksul | 实测日系网页规范；実用 EC、コンパクト密度、3色アクセント（ブルー／オレンジ／ピンク）、Roboto + ヒラギノの堅実スタック、角丸 4px のフラットボタン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/raksul/DESIGN.md) |
 | 乐天风格 | 密集日式电商生态 | 强烈绯红、信息丰富模块和促销节奏 | 大型市场、会员和多服务产品 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/rakuten/DESIGN.md) |
 | Raycast 风格 | 顺滑渐变暗色框架 | 暗色框架、鲜艳渐变、精致命令界面 | 启动器、命令面板和效率工具 | [Raycast DESIGN.md](https://getdesign.md/raycast/design-md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/raycast/skin.json) |
+| READYFOR 风格 | 日本品牌参考 · readyfor | 实测日系网页规范；クリーンホワイト、パッションレッド、クールグレーサーフェス、Roboto + Noto Sans JP のモダンな混植、社会貢献プラットフォームの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/readyfor/DESIGN.md) |
+| Recruit 风格 | 日本品牌参考 · recruit | 实测日系网页规范；コーポレートブルー、エディトリアル、Tazugane Gothic × Graphik Web、和欧の書体コントラスト、余白のリズム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/recruit/DESIGN.md) |
 | Red Hat PatternFly 风格 | 企业开源设计系统 | 结构化导航、稳健数据视图和无障碍红色强调 | 企业平台、基础设施和后台管理 | [PatternFly](https://github.com/patternfly/patternfly) |
+| ReFa 风格 | 日本品牌参考 · refa | 实测日系网页规范；プレミアム、洗練、清潔感、エディトリアル、ラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/refa/DESIGN.md) |
 | Renault 风格 | 极光渐变无圆角 | 鲜艳极光渐变、锐利无圆角控件、大胆字体 | 汽车和表达型产品营销 | [Renault DESIGN.md](https://getdesign.md/renault/design-md) |
 | Replicate 风格 | 白底代码优先机器学习 | 干净白底、直接代码示例、克制技术布局 | 模型 API、开发平台和机器学习目录 | [Replicate DESIGN.md](https://getdesign.md/replicate/design-md) |
 | Resend 风格 | 极简暗色邮件开发界面 | 极简暗色、等宽强调、清晰邮件工具 | 邮件 API 和开发基础设施 | [Resend DESIGN.md](https://getdesign.md/resend/design-md) |
 | Revolut 风格 | 顺滑渐变金融科技 | 暗色精密、渐变卡片、精致金融数据 | 银行、钱包和个人金融应用 | [Revolut DESIGN.md](https://getdesign.md/revolut/design-md) |
+| RMK 风格 | 日本品牌参考 · rmk | 实测日系网页规范；ウォームソフィスティケーション、デュアルテーマ（ダーク/ライト）、エディトリアル、ウォームグレー、温かみのあるラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/rmk/DESIGN.md) |
 | Roku 风格 | 远距流媒体界面 | 大焦点状态、横向媒体轨道和遥控器优先导航 | 电视应用、媒体浏览和客厅体验 | [TypeUI](https://github.com/bergside/awesome-design-skills/tree/main/skills/roku) |
+| Roland 风格 | 日本品牌参考 · roland | 实测日系网页规范；インダストリアルグレー、Roland Orange、ウルトラシン見出し、デュアルフォント、ステージ照明のコントラスト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/roland/DESIGN.md) |
+| ROYCE' 风格 | 日本品牌参考 · royce | 实测日系网页规范；エレガント、クラシカル、ネイビー、北海道、ギフト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/royce/DESIGN.md) |
 | Runway 风格 | 电影节编辑型创意 | 电影暗色主视觉、纸白阅读区、胶囊 CTA | 视频 AI、创意套件和媒体作品集 | [Runway DESIGN.md](https://getdesign.md/runwayml/design-md) |
+| sacai 风格 | 日本品牌参考 · sacai | 实测日系网页规范；Helvetica、Bold、UPPERCASE、Negative letter-spacing、ハイブリッド、骨太、ストイック、無装飾、撮影主役、純黒罫線、白地 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sacai/DESIGN.md) |
+| SAKE HUNDRED 风格 | 日本品牌参考 · sakehundred | 实测日系网页规范；ラグジュアリー、和の品格、明朝体、プレミアム、静寂 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sakehundred/DESIGN.md) |
 | Salesforce Lightning 风格 | CRM 企业设计系统 | 云端蓝、卡片工作区、密集记录和明确操作 | CRM、销售运营和企业记录工作流 | [Salesforce Lightning Design System](https://github.com/salesforce-ux/design-system) |
 | Sanity 风格 | 暗色编辑珊瑚红 CMS | 大号编辑字体、等宽技术标签、稀疏珊瑚红 | 内容平台、CMS 和编辑型 SaaS | [Sanity DESIGN.md](https://getdesign.md/sanity/design-md) |
 | 三丽鸥风格 | 角色主导可爱电商 | 粉彩、吉祥物叙事和装饰性圆润界面 | 角色产品、社区和家庭电商 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sanrio/DESIGN.md) |
+| Sansan 风格 | 日本品牌参考 · sansan | 实测日系网页规范；信頼、堅実、ネイビーブルー、ビジネス、クリーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sansan/DESIGN.md) |
+| SANU 风格 | 日本品牌参考 · sanu | 实测日系网页规范；ネイチャーラグジュアリー、アースカラー、ウォームブラウン、オールピル、トリプルフォントシステム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sanu/DESIGN.md) |
 | SAP Fiori 风格 | 企业运营设计 | 紧凑数据表面、语义状态色、严谨表单结构 | ERP、运营、供应链和企业工作流 | [SAP Fundamental Styles](https://github.com/SAP/fundamental-styles) |
+| SAPPORO 风格 | 日本品牌参考 · sapporo | 实测日系网页规范；スターゴールド、YakuHanJP、伝統企業、コーポレート、メガドロップダウン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sapporo/DESIGN.md) |
+| Schoo 风格 | 日本品牌参考 · schoo | 实测日系网页规范；ウォームオレンジ、教育的・親しみやすい、コミュニティ感、温かみのある typography、成長志向 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/schoo/DESIGN.md) |
 | SEEK Braid 风格 | 招聘市场设计系统 | 无障碍表单、友好间距和可靠市场模式 | 招聘、市场和交易服务 | [Braid](https://github.com/seek-oss/braid-design-system) |
+| SEGA 风格 | 日本品牌参考 · sega | 实测日系网页规范；コーポレート、クリーン、ブルーアイデンティティ、ニュースメディア、信頼 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sega/DESIGN.md) |
 | Segment Evergreen 风格 | 克制 SaaS 组件系统 | 柔和中性色、平衡密度和实用产品组件 | B2B SaaS、设置和运营工作流 | [Evergreen](https://github.com/segmentio/evergreen) |
+| Seiko 风格 | 日本品牌参考 · seiko | 实测日系网页规范；精緻、上質、シャープ、信頼、クリーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/seiko/DESIGN.md) |
 | Sentry 风格 | 粉紫密集可观测界面 | 暗色看板、密集诊断、粉紫强调 | 监控、调试和可观测控制台 | [Sentry DESIGN.md](https://getdesign.md/sentry/design-md) |
+| Sghr 风格 | 日本品牌参考 · sghr | 实测日系网页规范；透明感、ブルーグレー、手仕事、ギャラリー型、静けさ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sghr/DESIGN.md) |
+| SHARP 风格 | 日本品牌参考 · sharp | 实测日系网页规范；クリーン＆ライト、Noto Sans JP 単独、シャープレッドの差し色、製品写真主体、ネイチャーテクノロジー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sharp/DESIGN.md) |
+| Shimano 风格 | 日本品牌参考 · shimano | 实测日系网页规范；堅実、精密、インダストリアル、クリーン、信頼 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/shimano/DESIGN.md) |
+| SHIPS 风格 | 日本品牌参考 · ships | 实测日系网页规范；エディトリアル、ネイビー基調、クリーン、スタンダード、上品 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ships/DESIGN.md) |
+| SHIRO 风格 | 日本品牌参考 · shiro | 实测日系网页规范；ナチュラルコスメ、ダークネイビー、単一フォント、palt グローバル適用、ワイドスペーシング、ミニマル、北海道 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/shiro/DESIGN.md) |
 | 资生堂风格 | 日式美妆编辑 | 红黑优雅、精致字体和通透美妆影像 | 美妆、时尚和高端生活方式 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/shiseido/DESIGN.md) |
 | Shopify 风格 | 电影暗色荧光绿电商 | 暗色电影图像、荧光绿信号、轻字重展示字体 | 电商平台和产品营销 | [Shopify DESIGN.md](https://getdesign.md/shopify/design-md) |
+| shu uemura 风格 | 日本品牌参考 · shuuemura | 实测日系网页规范；シャープエッジ、ラグジュアリーコスメ、Helvetica Neue、ブラック＆ゴールド、weight 300、border-radius 0px | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/shuuemura/DESIGN.md) |
+| SIGMA 风格 | 日本品牌参考 · sigma | 实测日系网页规范；カスタムセリフ、Made in Aizu、セリフファースト、エディトリアル、精密工学、ウォームホワイト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sigma/DESIGN.md) |
+| SIRI SIRI 风格 | 日本品牌参考 · sirisiri | 实测日系网页规范；ABC Diatype、グロテスク、ウェイト300、白地×純黒、明朝の差し色、スレートブルー #b2c2c9、角丸ゼロ、下線リンク | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sirisiri/DESIGN.md) |
+| SIWA｜紙和 风格 | 日本品牌参考 · siwa | 实测日系网页规范；Noto Serif JP、明朝、ウェイト300、行間2.3、トープ #867d6b、#404040、ハイライン罫、余白、深澤直人 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/siwa/DESIGN.md) |
+| SIX 风格 | 日本品牌参考 · sixinc | 实测日系网页规范；モノクローム、一点の赤 #f23030、ニアブラック #1a1a1a、大きな欧文グロテスク（Maison Neue）、角丸なし（radius 0）、広い余白、エディトリアル、作例主義、YakuHanJP | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sixinc/DESIGN.md) |
 | Slack 风格 | 彩色工作协作风格 | 茄紫框架、彩色身份和密集对话工作台 | 团队聊天、协作和集成密集产品 | [Slack DESIGN.md](https://github.com/VoltAgent/awesome-design-md/blob/main/design-md/slack/DESIGN.md) |
 | SmartHR 风格 | 友好现代人力产品 | 清新蓝绿、清晰插画和人性化业务流程 | 人力、职场服务和 B2B SaaS | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/smarthr/DESIGN.md) |
+| SmartNews 风格 | 日本品牌参考 · smartnews | 实测日系网页规范；ニュースブルー、4色カテゴリバッジ、system-ui のシステムネイティブ感、フラットでクリーンな白基調、モバイルファースト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/smartnews/DESIGN.md) |
+| SNIDEL 风格 | 日本品牌参考 · snidel | 实测日系网页规范；モノクローム、エディトリアル、ストリートフォーマル、ジオメトリックサンセリフ、ミニマルラグジュアリー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/snidel/DESIGN.md) |
 | Snow Peak 风格 | 日式户外克制 | 自然景观、高端装备细节和安静黑白框架 | 户外、旅行和高端装备 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/snowpeak/DESIGN.md) |
+| SoftBank 风格 | 日本品牌参考 · softbank | 实测日系网页规范；コーポレートブルー、信頼感、システムフォント、ピル CTA、通信キャリアの堅実さ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/softbank/DESIGN.md) |
 | 索尼风格 | 电影感科技现代主义 | 深黑、沉浸媒体和精确产品工程 | 电子、娱乐和高端科技 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sony/DESIGN.md) |
+| Soup Stock 风格 | 日本品牌参考 · soupstocktokyo | 实测日系网页规范；明朝体、静謐、温かみ、広い字間、ミニマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/soupstocktokyo/DESIGN.md) |
+| SOU・SOU 风格 | 日本品牌参考 · sousou | 实测日系网页规范；Noto Serif JP、明朝体ボディ、letter-spacing 大、マスタード金茶 #c1a443、オフホワイト #f5f5f5、ピル CTA、和の現代化 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sousou/DESIGN.md) |
 | SpaceX 风格 | 未来全屏黑白 | 强烈黑白、全屏航天图像、稀疏字体 | 航天、防务和宏大科技发布 | [SpaceX DESIGN.md](https://getdesign.md/spacex/design-md) |
+| Spiber 风格 | 日本品牌参考 · spiber | 实测日系网页规范；インテレクチュアル、サステナブル、モノトーン、静謐、タイポグラフィドリブン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/spiber/DESIGN.md) |
+| Spiral 风格 | 日本品牌参考 · spiral | 实测日系网页规范；建築的、ギャラリー、モノクローム、エディトリアル、静謐 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/spiral/DESIGN.md) |
 | Spotify 风格 | 黑底绿音乐编辑风 | 黑底亮绿、粗体、专辑图主导 | 音乐、媒体和个性化内容体验 | [Spotify DESIGN.md](https://getdesign.md/spotify/design-md) |
+| Square Enix 风格 | 日本品牌参考 · square-enix | 实测日系网页规范；ダーク、シャープ、矩形、ゲーミング、ポータル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/square-enix/DESIGN.md) |
 | Starbucks 风格 | 大地绿暖色零售 | 分层大地绿、暖奶油画布、友好零售节奏 | 餐饮、生活方式和零售电商 | [Starbucks DESIGN.md](https://getdesign.md/starbucks/design-md) |
+| STORES 风格 | 日本品牌参考 · stores | 实测日系网页规范；ウォームニュートラル、ビビッドブルー、ミントアクセント、ShoraiSansStdN の整った字面、店舗向け SaaS の信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/stores/DESIGN.md) |
 | Stripe 风格 | 斜切流体渐变金融科技 | 紫色流体渐变、斜切区块、轻盈优雅字体 | 金融科技、SaaS 发布和技术营销 | [Stripe DESIGN.md](https://getdesign.md/stripe/design-md) · [Huashu](https://github.com/alchaincyf/huashu-design/blob/master/references/design-styles.md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/stripe/skin.json) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/stripe) |
+| STUDIO 风格 | 日本品牌参考 · studio | 实测日系网页规范；ミニマル、テック、洗練、高速、ダークテキスト on ホワイト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/studio/DESIGN.md) |
+| Studio Ghibli 风格 | 日本品牌参考 · ghibli | 实测日系网页规范；クラシック、温かみ、手づくり感、落ち着き、品格 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ghibli/DESIGN.md) |
+| SUBARU 风格 | 日本品牌参考 · subaru | 实测日系网页规范；SUBARU Blue、Light ウェイト、プレミアム、安全性、アウトドア | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/subaru/DESIGN.md) |
+| Subsequence 风格 | 日本品牌参考 · subsequence | 实测日系网页规范；クリーム地 / エディトリアル / バイリンガル / クラフト / パステル インデックス / スロー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/subsequence/DESIGN.md) |
 | Supabase 风格 | 翡翠绿代码优先暗色 | 墨绿暗色、代码面板、开发者优先层级 | 后端平台、数据库和开发者控制台 | [Supabase DESIGN.md](https://getdesign.md/supabase/design-md) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/supabase) |
 | Superhuman 风格 | 高端键盘优先暗色 | 高端暗色、紫色微光、快速键盘交互 | 邮件、效率和高端桌面工具 | [Superhuman DESIGN.md](https://getdesign.md/superhuman/design-md) |
+| SUQQU 风格 | 日本品牌参考 · suqqu | 实测日系网页规范；ラグジュアリー、凛、シャープ、モノクローム、日本の美意識 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/suqqu/DESIGN.md) |
+| SUZUKI 风格 | 日本品牌参考 · suzuki | 实测日系网页规范；堅実、信頼、機能的、情報整理、自動車メーカー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/suzuki/DESIGN.md) |
+| Tabelog 风格 | 日本品牌参考 · tabelog | 实测日系网页规范；実用的、情報密度、スコア重視、オレンジ、レビュー文化 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tabelog/DESIGN.md) |
+| Tabio 风格 | 日本品牌参考 · tabio | 实测日系网页规范；Koburina Gothic、モノトーン、0.08em ワイドトラッキング、クラフト感、ミューテッドグレー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tabio/DESIGN.md) |
+| TAKEO 风格 | 日本品牌参考 · takeo | 实测日系网页规范；静謐、余白、Light ウェイト、広い字間、モノトーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/takeo/DESIGN.md) |
+| Takram 风格 | 日本品牌参考 · takram | 实测日系网页规范；theinhardt、Koburina Go、白基調、letter-spacing マイナス、line-height 1.0、weight 300/400 軽量、写真直置き、ヘッダー固定パネル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/takram/DESIGN.md) |
+| TANITA 风格 | 日本品牌参考 · tanita | 实测日系网页规范；信頼、清潔、健康、シンプル、コーポレート | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tanita/DESIGN.md) |
+| TASAKI 风格 | 日本品牌参考 · tasaki | 实测日系网页规范；ウルトラミニマル、建築的、モノクローム、繊細、静謐 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tasaki/DESIGN.md) |
 | teamLab 风格 | 沉浸数字艺术体验 | 暗空间、发光有机动势和无边界视觉场 | 展览、沉浸叙事和体验网站 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/teamlab/DESIGN.md) |
 | 腾讯 TDesign 风格 | 跨平台企业设计系统 | 干净蓝色强调、一致令牌和丰富业务组件 | 企业 Web、移动端和小程序产品 | [TDesign](https://github.com/Tencent/tdesign) |
+| TENERITA 风格 | 日本品牌参考 · tenerita | 实测日系网页规范；上質、オーガニック、明朝体、オリーブ、温かみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tenerita/DESIGN.md) |
+| TENGA 风格 | 日本品牌参考 · tenga | 实测日系网页规范；白地、ブラック、IBM Plex Sans、Oswald、赤 #d70c19、グッドデザイン的造形、オープン、力強い、アクセント三色 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tenga/DESIGN.md) |
+| TENTIAL 风格 | 日本品牌参考 · tential | 实测日系网页规范；ネイビーブルー、クリーン、ウェルネス、テクノロジー×睡眠、上質な信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tential/DESIGN.md) |
 | Tesla 风格 | 极度减法产品电影感 | 极少界面框架、全屏产品摄影、稀疏控件 | 汽车、硬件和高端产品发布 | [Tesla DESIGN.md](https://getdesign.md/tesla/design-md) |
+| THE 风格 | 日本品牌参考 · the | 实测日系网页规范；ミニマル、モノクローム、明朝体エディトリアル、静謐、プロダクト主役 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/the/DESIGN.md) |
 | The Verge 风格 | 酸性色媒体新粗野主义 | 酸性薄荷绿和紫色、大胆编辑字体、硬边区块 | 媒体、文化、社区信息流和大胆发布 | [The Verge DESIGN.md](https://getdesign.md/theverge/design-md) · [Huashu](https://github.com/alchaincyf/huashu-design/blob/master/references/design-styles.md) |
+| THREE 风格 | 日本品牌参考 · three | 实测日系网页规范；ボタニカル、ミニマル、エディトリアル、フラット、ストイック | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/three/DESIGN.md) |
+| TIGER 风格 | 日本品牌参考 · tiger | 实测日系网页规范；堅実、信頼、工業的、プレミアム、日本の家電メーカー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tiger/DESIGN.md) |
+| Time & Style 风格 | 日本品牌参考 · timeandstyle | 实测日系网页规范；ミニマル、建築的、ライトウェイト、Helvetica、Noto Sans JP、白基調、ゆったり余白、静謐、クラフトマンシップ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/timeandstyle/DESIGN.md) |
+| TODAY'S SPECIAL 风格 | 日本品牌参考 · todaysspecial | 实测日系网页规范；エディトリアル、モノクローム、Lato + Noto Sans JP、矩形 CTA（radius 0）、palt グローバル適用、ライフスタイルマガジン、DIY | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/todaysspecial/DESIGN.md) |
 | Together AI 风格 | 技术蓝图 AI | 蓝图网格、技术标签、基础设施图 | AI 基础设施和开发者平台 | [Together AI DESIGN.md](https://getdesign.md/together.ai/design-md) |
+| tokyobike 风格 | 日本品牌参考 · tokyobike | 实测日系网页规范；温かみ、ミニマル、ミュート、丁寧、ライフスタイル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokyobike/DESIGN.md) |
+| TOKYU 风格 | 日本品牌参考 · tokyu | 实测日系网页规范；ウォームグレー、ティール CTA、ピルボタン、鉄道ポータルの安定感、包括的デザイントークンシステム | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokyu/DESIGN.md) |
+| TOMBOW 风格 | 日本品牌参考 · tombow | 实测日系网页规范；ディープクリムゾン、クリーン白基調、Barlow ジオメトリック欧文、YakuHanJP 約物詰め、エディトリアル見出し、老舗の品格 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tombow/DESIGN.md) |
+| TOMORROWLAND 风格 | 日本品牌参考 · tomorrowland | 实测日系网页规范；エレガント、ライトウェイト、エディトリアル、ナチュラルパレット、ファッション・モード | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tomorrowland/DESIGN.md) |
+| TOPPAN 风格 | 日本品牌参考 · toppan | 实测日系网页规范；印刷精密、直角ボタン、ブルー権威、自社書体、バイリンガル・タイポグラフィ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/toppan/DESIGN.md) |
 | 虎屋风格 | 和果子传统极简 | 季节色、精致日文字体和安静工艺摄影 | 传统品牌、食品和文化叙事 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/toraya/DESIGN.md) |
+| TOSHIBA 风格 | 日本品牌参考 · toshiba | 实测日系网页规范；クリーン、テクノロジー、グローバル、フラット、コーポレート | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/toshiba/DESIGN.md) |
 | Toss 风格 | 韩国金融科技超级应用 | 干净白色表面、紫蓝焦点、极简数据优先层级 | 移动金融、支付和亲和型消费工具 | [StyleSeed Toss skin](https://github.com/bitjaru/styleseed/blob/main/skins/toss/skin.json) |
+| TOTO 风格 | 日本品牌参考 · toto | 实测日系网页规范；清潔感、ブルーグレー基調、Lato + ヒラギノ、水まわりの信頼性、カテゴリー色分け | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/toto/DESIGN.md) |
 | 丰田风格 | 可靠汽车设计系统 | 强红色、技术产品清晰度和广泛无障碍导航 | 汽车、出行和工业产品 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/toyota/DESIGN.md) |
+| TRAVELER'S 风格 | 日本品牌参考 · travelers-company | 实测日系网页规范；クラフト、旅情、ヴィンテージ、ダークナビ `#222222`、角丸ゼロ、Helvetica Neue 先頭の欧文優先スタック、400/700 のバイナリウェイト、WordPress テーマベースの素朴な組版 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/travelers-company/DESIGN.md) |
+| TRUCK 风格 | 日本品牌参考 · truck-furniture | 实测日系网页规范；ハンドクラフト、ダーク＆ウォーム、Anton ディスプレイ、3フォントシステム、テキストリンク CTA、イメージ・フォワード、ミニマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/truck-furniture/DESIGN.md) |
+| TRUNK(HOTEL) 风格 | 日本品牌参考 · trunk-hotel | 实测日系网页规范；モノクローム、エディトリアル、ギャラリー、静謐、ミニマル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/trunk-hotel/DESIGN.md) |
+| TULLY'S 风格 | 日本品牌参考 · tullys | 实测日系网页规范；コーヒーブラウン、カフェトーン、ピルボタン、角丸カード、温かみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tullys/DESIGN.md) |
 | Twilio Paste 风格 | 通信产品设计系统 | 强红色强调、清晰表单和无障碍开发者模式 | 通信 API、支持工具和开发者平台 | [Twilio Paste](https://github.com/twilio-labs/paste) |
+| TYPICA 风格 | 日本品牌参考 · typica | 实测日系网页规范；クリーム #f4efe5、多色アクセント、ハイコントラスト・セリフ、巨大ディスプレイ数字、restra、中ゴシックBBB、palt グローバル適用、pill ボタン、editorial | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/typica/DESIGN.md) |
 | 美国 Web 设计系统风格 | USWDS 联邦服务界面 | 无障碍公共配色、强层级、朴素控件和清晰警示 | 政府门户、公共表单和公民信息 | [U.S. Web Design System](https://github.com/uswds/uswds) |
 | Uber 风格 | 城市黑白力量感 | 大胆黑白、紧凑字体、直接城市图像 | 出行、物流和城市服务 | [Uber DESIGN.md](https://getdesign.md/uber/design-md) |
+| Ubie 风格 | 日本品牌参考 · ubie | 实测日系网页规范；クリーンホワイト、メディカルブルー、ピンクアクセント、A1ゴシックの丸みのある温かさ、ヘルスケアの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ubie/DESIGN.md) |
+| UCC 风格 | 日本品牌参考 · ucc | 实测日系网页规范；温かみ (Warm)、上品 (Elegant)、親しみやすい (Approachable)、プレミアム (Premium)、コーヒー文化 (Coffee Culture) | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ucc/DESIGN.md) |
+| uka 风格 | 日本品牌参考 · uka | 实测日系网页规范；ビューティー、Zen Kaku Gothic New、Instrument Sans、チャコールグレー #333、palt グローバル、サロン、東京 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/uka/DESIGN.md) |
+| UNDERCOVER 风格 | 日本品牌参考 · undercover | 实测日系网页规范；ウルトラミニマル、モノクローム、反装飾、10px ベース、palt グローバル、HelveticaNeueLTPro、editorial、brutalist typography | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/undercover/DESIGN.md) |
 | 优衣库风格 | 大众零售现代主义 | 红方形标识、严格网格和直接产品沟通 | 时尚零售、目录和全球电商 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/uniqlo/DESIGN.md) |
+| UNITED ARROWS 风格 | 日本品牌参考 · united-arrows | 实测日系网页规范；ウォームトーン、エディトリアル、マルチフォント、テラコッタアクセント、ファッション・コーポレート | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/united-arrows/DESIGN.md) |
+| URBAN RESEARCH 风格 | 日本品牌参考 · urbanresearch | 实测日系网页规范；クリーン EC、バーガンディアクセント、システムフォント、シャープエッジ、情報密度 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/urbanresearch/DESIGN.md) |
 | Vercel 风格 | 瑞士黑白精密风 | 纯黑白、Geist 字体、锐利网格和直角 | 开发者工具、SaaS 和技术文档 | [Vercel DESIGN.md](https://getdesign.md/vercel/design-md) · [Huashu](https://github.com/alchaincyf/huashu-design/blob/master/references/design-styles.md) · [StyleSeed skin](https://github.com/bitjaru/styleseed/blob/main/skins/vercel/skin.json) · [Better Design](https://github.com/marvkr/better-design/tree/main/components/vercel) |
+| Vermicular 风格 | 日本品牌参考 · vermicular | 实测日系网页规范；明朝体、Warm Off-white、Charcoal Brown、Weight 300、palt、広い字間、職人、鋳物、温もり、余白、静謐 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/vermicular/DESIGN.md) |
+| visvim 风格 | 日本品牌参考 · visvim | 实测日系网页规范；ウルトラミニマル、ギャラリー型、weight 300 Light、pill CTA、モノクローム、acumin-pro、small type、breathy（呼吸する余白） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/visvim/DESIGN.md) |
 | Vodafone 风格 | 纪念碑式红色通信 | 纪念碑式大写字、红色章节带、强品牌区块 | 通信、企业营销和大型服务 | [Vodafone DESIGN.md](https://getdesign.md/vodafone/design-md) |
 | VoltAgent 风格 | 虚空黑翡翠终端 | 虚空黑画布、翡翠绿信号、终端原生组件 | Agent 框架、编排和开发者平台 | [VoltAgent DESIGN.md](https://getdesign.md/voltagent/design-md) |
+| WACOAL 风格 | 日本品牌参考 · wacoal | 实测日系网页规范；エレガント、フェミニン、ローズピンク、シャープ、上品 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/wacoal/DESIGN.md) |
+| Wacom 风格 | 日本品牌参考 · wacom | 实测日系网页规范；クリーンホワイト、Roboto Light、シアンアクセント、プロダクト中心、クリエイティブツール | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/wacom/DESIGN.md) |
+| Wantedly 风格 | 日本品牌参考 · wantedly | 实测日系网页规范；共感シアン、Poppins モダン、ピル CTA、半透明テキスト、軽量な余白、SNS の軽さ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/wantedly/DESIGN.md) |
 | Warp 风格 | 块式现代终端 | 暗色 IDE 外观、命令块、现代终端交互 | CLI、终端和开发者效率工具 | [Warp DESIGN.md](https://getdesign.md/warp/design-md) |
 | Webex 风格 | 企业会议清晰风格 | 冷色渐变、圆形通话控件和人物中心会议布局 | 视频会议、协作和混合办公工具 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/webex/DESIGN.md) |
 | Webflow 风格 | 精致蓝色可视化构建器 | 蓝色强调的精致营销、可视化构建器构图 | 建站工具和专业创意 SaaS | [Webflow DESIGN.md](https://getdesign.md/webflow/design-md) |
-| WIRED 风格 | 大报式科技编辑风 | 纸白高密度、衬线编辑节奏、墨蓝链接 | 科技媒体、报告和长内容出版 | [WIRED DESIGN.md](https://getdesign.md/wired/design-md) |
+| WHILL 风格 | 日本品牌参考 · whill | 实测日系网页规范；クリーン、プロダクトフォーカス、モダンヘルスケア、開放感、ユニバーサル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/whill/DESIGN.md) |
+| White Mtn. 风格 | 日本品牌参考 · whitemountaineering | 实测日系网页规范；モノクローム / 硬質 / グリッド / ミニマル / モード | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/whitemountaineering/DESIGN.md) |
+| WIRED 风格 | 大报式科技编辑风 | 纸白高密度、衬线编辑节奏、墨蓝链接 | 科技媒体、报告和长内容出版 | [WIRED DESIGN.md](https://getdesign.md/wired/design-md) · [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/wired/DESIGN.md) |
 | Wise 风格 | 亮绿友好金融 | 亮绿强调、清晰语言、亲和金融结构 | 支付、转账和消费金融 | [Wise DESIGN.md](https://getdesign.md/wise/design-md) |
 | Workday Canvas 风格 | 人力资本企业设计系统 | 友好插画、宽松表单和亲和企业层级 | 人力、财务和员工服务产品 | [Canvas Kit](https://github.com/Workday/canvas-kit) |
 | xAI 风格 | 强烈未来黑白 | 强烈黑白、未来克制、高对比技术字体 | 前沿 AI 产品和研究平台 | [xAI DESIGN.md](https://getdesign.md/x.ai/design-md) |
 | 小红书风格 | 生活方式发现社交界面 | 亮红强调、图像主导卡片和活力创作者电商 | 生活社区、社交电商和创作者产品 | [Open Design](https://github.com/nexu-io/open-design/blob/main/design-systems/xiaohongshu/DESIGN.md) |
+| YAECA 风格 | 日本品牌参考 · yaeca | 实测日系网页规范；絶対モノクロ、ゼロ装飾、ギャラリー的静謐、ヘルベチカ + 游ゴシック、ヘアライン罫線、palt グローバル適用 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yaeca/DESIGN.md) |
+| Yakult 风格 | 日本品牌参考 · yakult | 实测日系网页规范；ヤクルトレッド、ウォームクリーム、ウォームピンク、システムフォント Medium 体、健康ブランドの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yakult/DESIGN.md) |
 | 雅马哈风格 | 精工声音与出行 | 黑白精度、丰富产品影像和技术传承 | 音乐、乐器、出行和工程产品 | [Japanese DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yamaha/DESIGN.md) |
+| YAMAP 风格 | 日本品牌参考 · yamap | 实测日系网页规范；モノクローム、機能的、ピル CTA、ヒラギノゴシック、アウトドア・コミュニティ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yamap/DESIGN.md) |
+| Yohji Yamamoto 风格 | 日本品牌参考 · yohjiyamamoto | 实测日系网页规范；黒の詩学、Optima、游ゴシック体、letter-spacing 0.08em、角丸ゼロ、テキストリンクCTA、palt なし、ダーク/ライト二面、反商業 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yohjiyamamoto/DESIGN.md) |
+| YOKU MOKU 风格 | 日本品牌参考 · yokumoku | 实测日系网页规范；高級洋菓子、贈答品、ディープネイビー、明朝見出し、デュアルフォント、クリームホワイト、ワイドレタースペーシング | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yokumoku/DESIGN.md) |
+| Yonex 风格 | 日本品牌参考 · yonex | 实测日系网页规范；力強い、黒基調、デュアルフォント、フラット、バイリンガル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yonex/DESIGN.md) |
 | Zapier 风格 | 暖橙插画自动化 | 暖橙色、友好插画、亲和工作流叙事 | 自动化、集成和无代码产品 | [Zapier DESIGN.md](https://getdesign.md/zapier/design-md) |
+| ZENB 风格 | 日本品牌参考 · zenb | 实测日系网页规范；ナチュラルグリーン、サンフラワーイエロー、ピル CTA、palt 見出し、D2C、植物由来 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/zenb/DESIGN.md) |
 | Zendesk Garden 风格 | 客服产品设计系统 | 克制绿色强调、无障碍控件和服务导向工作流 | 客户支持、工单和服务运营 | [Zendesk Garden](https://github.com/zendeskgarden/react-components) |
+| Zenn 风格 | 日本品牌参考 · zenn | 实测日系网页规范；クリーン、モダン、テクニカル、読みやすい、ブルーアクセント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/zenn/DESIGN.md) |
+| Zoff 风格 | 日本品牌参考 · zoff | 实测日系网页规范；Zoff Blue `#4998db`、pill ボタン、白ベースのクリーン EC、Open Sans ナビ、欧文先頭フォントスタック | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/zoff/DESIGN.md) |
+| ZOJIRUSHI 风格 | 日本品牌参考 · zojirushi | 实测日系网页规范；静謐、ライフスタイル家電、白ピル CTA、palt グローバル適用、Helvetica Neue 優先、ブランドブルーのアクセント使い | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/zojirushi/DESIGN.md) |
+| ZOZO 风格 | 日本品牌参考 · zozo | 实测日系网页规范；ファッション、クリーン、エディトリアル、Gothic MB101、zozogothic、白基調 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/zozo/DESIGN.md) |
+| ±0 风格 | 日本品牌参考 · plusminuszero | 实测日系网页规范；ニュートラル、グレー、アフォーダンス、薄い、控えめ、商品写真主役 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/plusminuszero/DESIGN.md) |
+| たねや 风格 | 日本品牌参考 · taneya | 实测日系网页规范；静謐 / 端正 / 余白 / 自然 / エディトリアル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/taneya/DESIGN.md) |
+| ほぼ日 风格 | 日本品牌参考 · hobonichi | 实测日系网页规范；編集的、多色、丸み、手紙のような、親密 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hobonichi/DESIGN.md) |
+| アマン東京 风格 | 日本品牌参考 · aman-tokyo | 实测日系网页规范；Serene, Warm Minimal, Understated Luxury, Japanese Silence, No-Bold | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/aman-tokyo/DESIGN.md) |
+| オカムラ 风格 | 日本品牌参考 · okamura | 实测日系网页规范；実直 / 中庸 / ユニバーサルデザイン / 高情報密度 / 無彩色 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/okamura/DESIGN.md) |
+| カインズ 风格 | 日本品牌参考 · cainz | 实测日系网页规范；フォレストグリーン、実用的 EC、ピルタグナビ、オレンジ検索アクセント、ホームセンターの信頼感 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/cainz/DESIGN.md) |
+| カキモリ 风格 | 日本品牌参考 · kakimori | 实测日系网页规范；文具、紙、インク、書く、蔵前、セミオーダー、職人、静謐、品格、モノトーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kakimori/DESIGN.md) |
+| カゴメ 风格 | 日本品牌参考 · kagome | 实测日系网页规范；カゴメレッド、自然・野菜、丸ゴシックのぬくもり、Inter のモダンさ、ピル CTA、白カードタイル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kagome/DESIGN.md) |
+| カルビー 风格 | 日本品牌参考 · calbee | 实测日系网页规范；元気、親しみやすい、カルビーレッド、温かベージュ、食品コーポレート | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/calbee/DESIGN.md) |
+| カルピス 风格 | 日本品牌参考 · calpis | 实测日系网页规范；清涼感、カルピスブルー、水玉模様、白と青、伝統的ブランド、システムフォント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/calpis/DESIGN.md) |
+| カンディハウス 风格 | 日本品牌参考 · condehouse | 实测日系网页规范；端正 / 静謐 / ナチュラル / エディトリアル / クラフト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/condehouse/DESIGN.md) |
+| キッコーマン 风格 | 日本品牌参考 · kikkoman | 实测日系网页规范；温かい、家庭的、親しみやすい、レシピ中心、食の喜び | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kikkoman/DESIGN.md) |
+| キユーピー 风格 | 日本品牌参考 · kewpie | 实测日系网页规范；温かい、親しみやすい、食卓、赤、丸い | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kewpie/DESIGN.md) |
+| クボタ 风格 | 日本品牌参考 · kubota | 实测日系网页规范；信頼、堅実、グローバル、テクノロジー、サステナブル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kubota/DESIGN.md) |
+| クラシル 风格 | 日本品牌参考 · kurashiru | 实测日系网页规范；システムフォント、ニュートラルグレー、コーラルアクセント、動画サムネイル主体、実用的 UI | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kurashiru/DESIGN.md) |
+| グランドセイコー 风格 | 日本品牌参考 · grand-seiko | 实测日系网页规范；高級時計、ヘリテージ、明朝、深ネイビー、矩形 CTA、漆黒紺、伝承、スプリングドライブ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/grand-seiko/DESIGN.md) |
+| コンセント 风格 | 日本品牌参考 · concent | 实测日系网页规范；ヒラギノ UD 角ゴ、`palt` 使わない、`letter-spacing: normal`、1 文字単位のカーニング span、黒 ＋ 白 ＋ `#d4dde1`、角丸 0、カード上辺 4px 黒罫 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/concent/DESIGN.md) |
+| サンゲツ 风格 | 日本品牌参考 · sangetsu | 实测日系网页规范；AXIS Std、行間 2.0、温かみのあるグレー #727171、紺青 #185f98、無彩色の地、カテゴリ別のパステルタグ、角丸 0 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sangetsu/DESIGN.md) |
+| サントリー 风格 | 日本品牌参考 · suntory | 实测日系网页规范；透明感、水、ブルー、コーポレート、信頼、スケール | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/suntory/DESIGN.md) |
+| スマートバンク 风格 | 日本品牌参考 · smartbank | 实测日系网页规范；白地、黒ピル（radius 312px）、Noto Sans JP ＋ Poppins、`palt` 全域、128/n の調和数列、10 色 × 11 段のカラースケール、グラデーション文字 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/smartbank/DESIGN.md) |
+| タイミー 风格 | 日本品牌参考 · timee | 实测日系网页规范；タイミーイエロー、ポップ、ピル CTA with box-shadow、即時性、Noto Sans JP 統一、若年層向け | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/timee/DESIGN.md) |
+| ニトリ 风格 | 日本品牌参考 · nitori | 实测日系网页规范；機能的、信頼感、EC 特化、情報密度、バリュー志向 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nitori/DESIGN.md) |
+| ポカリスエット 风格 | 日本品牌参考 · pocarisweat | 实测日系网页规范；爽やか、清潔、信頼、クラシック、ブルー＆ホワイト | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/pocarisweat/DESIGN.md) |
+| マルニ木工 风格 | 日本品牌参考 · maruni | 实测日系网页规范；クラフト、温かい、上質、控えめ、永続、木の質感、和の品格 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/maruni/DESIGN.md) |
+| ミナ ペルホネン (mina-perhonen) 风格 | 日本品牌参考 · mina-perhonen | 实测日系网页规范；手仕事、明朝体、テキスタイル、編集的、静謐、文学的、二言語混植 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mina-perhonen/DESIGN.md) |
+| ミナ ペルホネン (minaperhonen) 风格 | 日本品牌参考 · minaperhonen | 实测日系网页规范；明朝体（游明朝）、近似モノクロ、白と #212121、Adobe Garamond Pro、Helvetica Neue、行間1.8、余白過多、テキストリンク（塗りボタン非採用） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/minaperhonen/DESIGN.md) |
+| モリサワ 风格 | 日本品牌参考 · morisawa | 实测日系网页规范；純白の地、UD 新ゴ NT、Light 主体、ls 0.05em グローバル、ブルー #0086ce / #3071b9、鮮烈な #003cff、黒フッター #0c0c0c | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/morisawa/DESIGN.md) |
+| 一休.com 风格 | 日本品牌参考 · ikyu | 实测日系网页规范；Premium, Trusted, Editorial-Promo, Multi-vertical, iOS-native feel | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ikyu/DESIGN.md) |
+| 一保堂茶舗 风格 | 日本品牌参考 · ippodo | 实测日系网页规范；京の品格、間（ま）、茶室の静けさ、明朝×ゴシックの二層構造、Brown Accent | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ippodo/DESIGN.md) |
+| 一蘭 风格 | 日本品牌参考 · ichiran | 实测日系网页规范；和風、温かみ、没入感、赤と茶、伝統的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ichiran/DESIGN.md) |
+| 一風堂 风格 | 日本品牌参考 · ippudo | 实测日系网页规范；ブランドレッド、モダン和食、Montserrat × Noto Sans JP、クリーンレイアウト、グローバル展開 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ippudo/DESIGN.md) |
+| 三井不動産 风格 | 日本品牌参考 · mitsui-fudosan | 实测日系网页规范；権威的、洗練、プレミアム、タイポグラフィ二系統、シャープ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mitsui-fudosan/DESIGN.md) |
+| 三菱地所 风格 | 日本品牌参考 · mec | 实测日系网页规范；Corporate, Trustworthy, Bilingual, Spacious, Conservative | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mec/DESIGN.md) |
+| 中川政七商店 风格 | 日本品牌参考 · nakagawa | 实测日系网页规范；端正、和モダン、工芸、Yu Gothic、明朝、奈良、ロングライフ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nakagawa/DESIGN.md) |
+| 中村藤吉本店 风格 | 日本品牌参考 · tokichi | 实测日系网页规范；Noto Serif JP Light(300)、生成り `#fffef8`、`letter-spacing: 0.5em` の見出し、radius 0、影ゼロ、1rem = 10px | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokichi/DESIGN.md) |
+| 代官山 蔦屋書店 风格 | 日本品牌参考 · daikanyama-tsite | 实测日系网页规范；書店、文化複合、和洋折衷、クラフト紙、極小フォント、Noto Sans Japanese、square corners、編集の密度 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/daikanyama-tsite/DESIGN.md) |
+| 伊藤園 风格 | 日本品牌参考 · itoen | 实测日系网页规范；ナチュラル、暖色グレー、角張った直方体ボタン、伝統と信頼、茶の緑 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/itoen/DESIGN.md) |
+| 伊藤忠商事 风格 | 日本品牌参考 · itochu | 实测日系网页规范；格調、信頼、クラシカル、セリフコントラスト、濃紺ブルー | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/itochu/DESIGN.md) |
+| 住友林業 风格 | 日本品牌参考 · sumitomo-forestry | 实测日系网页规范；自然、品格、信頼、伝統、サステナブル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sumitomo-forestry/DESIGN.md) |
+| 北欧暮らし 风格 | 日本品牌参考 · hokuohkurashi | 实测日系网页规范；温もり、ナチュラル、エディトリアル、家庭的、游ゴシック | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hokuohkurashi/DESIGN.md) |
+| 十和田市現代美術館 风格 | 日本品牌参考 · towada-art-center | 实测日系网页规范；スカイブルーの 12px 額縁、Plain ＋ 中ゴシック BBB、`palt` 全域、ウェイトは 400 一本、角丸 0、コーラルの開館バッジ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/towada-art-center/DESIGN.md) |
+| 博報堂 风格 | 日本品牌参考 · hakuhodo | 实测日系网页规范；エディトリアル、ビビッドレッド、ダークネイビー、二書体システム（和文＋欧文）、広告代理店の作品性 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hakuhodo/DESIGN.md) |
+| 吉田カバン 风格 | 日本品牌参考 · yoshidakaban | 实测日系网页规范；ミニマル、モノクローム、Helvetica、職人、カタログ、密度高 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yoshidakaban/DESIGN.md) |
+| 国立新美術館 风格 | 日本品牌参考 · nact | 实测日系网页规范；墨 #222222、朱赤 #d7322d、純白の地、非対称角丸 5px 0、ヒラギノ角ゴ **Pro** W3、行間 1.7、Roboto の UI 欧文 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nact/DESIGN.md) |
+| 土屋鞄 风格 | 日本品牌参考 · tsuchiya-kaban | 实测日系网页规范；DM Sans、DNP秀英ゴシック銀、Weight 300、Tsuchiya Blue、広い字間、Sharp Corners、職人、革、静謐、正直 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tsuchiya-kaban/DESIGN.md) |
+| 大和ハウス 风格 | 日本品牌参考 · daiwahouse | 实测日系网页规范；ブルーグレーの信頼感、住宅の品格、セリフ×サンセリフの使い分け、伝統的な日本語フォントスタック、二面性（コーポレート／住宅） | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/daiwahouse/DESIGN.md) |
+| 天童木工 风格 | 日本品牌参考 · tendo | 实测日系网页规范；Helvetica、モノクローム、角丸ゼロ、四角い枠線、写真主導、editorial、老舗、成形合板、規律 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tendo/DESIGN.md) |
+| 山と道 风格 | 日本品牌参考 · yamatomichi | 实测日系网页规范；筑紫ゴシック、Helvetica Now、白地、大きな角丸、青 #0386f0、ベージュ #dfceaa、多色カード、ピルCTA、ピルタグ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/yamatomichi/DESIGN.md) |
+| 日立製作所 风格 | 日本品牌参考 · hitachi | 实测日系网页规范；権威的、堅牢、クリーン、構造的、グローバル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hitachi/DESIGN.md) |
+| 日経電子版 风格 | 日本品牌参考 · nikkei | 实测日系网页规范；Information-Dense, Text-First, Newspaper Heritage, System Font Stack, Editorial Hierarchy | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nikkei/DESIGN.md) |
+| 暮しの手帖 风格 | 日本品牌参考 · kurashi-no-techo | 实测日系网页规范；明朝 / 誌面 / 縦書き / 刷り色 / 手仕事 / ゆったり | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kurashi-no-techo/DESIGN.md) |
+| 東京ミッドタウン 风格 | 日本品牌参考 · tokyo-midtown | 实测日系网页规范；グリーン、編集、複数フォントの混植、JAPAN VALUE、複合施設、文化発信 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokyo-midtown/DESIGN.md) |
+| 東京メトロ 风格 | 日本品牌参考 · tokyometro | 实测日系网页规范；信頼、機能的、視認性、公共インフラ、ユニバーサル | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokyometro/DESIGN.md) |
+| 東京茶寮 风格 | 日本品牌参考 · tokyosaryo | 实测日系网页规范；クリーム #f3f0e0、くすんだゴールド #b3873d、Cardo セリフ、和文ゴシック、角丸0、静謐、ミニマル、editorial | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/tokyosaryo/DESIGN.md) |
+| 東京都写真美術館 风格 | 日本品牌参考 · topmuseum | 实测日系网页规范；白地、純黒、Univers Next ＋ 游ゴシック Pr6N、**ls −0.05em 全域**、`palt` 全域、黒 2px の囲み、角丸 2px の a11y ボタン、1rem = 10px | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/topmuseum/DESIGN.md) |
+| 東京都現代美術館 风格 | 日本品牌参考 · mot-art-museum | 实测日系网页规范；白地、純黒、Graphik ＋ 田中ゴシック Bold、lh 1.15、`lnum`+`palt`、ブルー #356eb0、クリーム #f9ede0、角丸 0 の黒チップ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mot-art-museum/DESIGN.md) |
+| 東屋 风格 | 日本品牌参考 · azmaya | 实测日系网页规范；静謐 / 端正 / 明朝 / モノクローム / 余白 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/azmaya/DESIGN.md) |
+| 根津美術館 风格 | 日本品牌参考 · nezu-museum | 实测日系网页规范；Noto Serif JP（明朝）全域、金茶 `#aa855a` 単色、影ゼロ、radius 3〜4px、13px 基準の % ラダー、可変フォント 100〜700 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nezu-museum/DESIGN.md) |
+| 森美術館 风格 | 日本品牌参考 · mori-art-museum | 实测日系网页规范；クリムゾン、現代アート、ヒラギノサンス、白と濃灰、整然、ラベル、強い赤、館内案内、六本木、誌面組版 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/mori-art-museum/DESIGN.md) |
+| 猿田彦珈琲 风格 | 日本品牌参考 · sarutahiko | 实测日系网页规范；クラフト、コーヒーブラウン、ソフトブルー、Shopify EC、Zen Kaku Gothic New、温かみ | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sarutahiko/DESIGN.md) |
+| 玉川堂 风格 | 日本品牌参考 · gyokusendo | 实测日系网页规范；明朝一本（りょう Display PlusN）、weight 300 の見出し、行間 2.0 グローバル、palt グローバル、ls 0.06em、白と黒の二値、角丸 0 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/gyokusendo/DESIGN.md) |
+| 白鳳堂 风格 | 日本品牌参考 · hakuhodo-brushes | 实测日系网页规范；漆黒ヒーロー、純白背景、明朝体統一、ワイドレタースペーシング CTA、角丸ゼロ、職人の矜持、モノトーン | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hakuhodo-brushes/DESIGN.md) |
+| 石巻工房 风格 | 日本品牌参考 · ishinomaki-lab | 实测日系网页规范；モノスペース（等幅）、General Grotesque Mono、直角（radius 0）、純白 #FFF、近似黒 #000、グレー #8D8C8A、ヘアライン #f1f1f1、ダーク #151515、サンド #F3EFE8、合板（plywood）、DIY、Made in Local、広い字送り、工房的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/ishinomaki-lab/DESIGN.md) |
+| 積水ハウス 风格 | 日本品牌参考 · sekisuihouse | 实测日系网页规范；静謐、上質、モノクローム、游ゴシック体 Pr6N、住宅ブランドの品格 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/sekisuihouse/DESIGN.md) |
+| 美術手帖 风格 | 日本品牌参考 · bijutsutecho | 实测日系网页规范；アートメディア、ヒラギノ明朝 W6（ディスプレイ）、Roboto＋Noto Sans JP（本文）、ニアブラック #2c2e31、金 #c2a47e（プレミアム）、ピル CTA、広いトラッキング（0.15em）、高密度グリッド | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/bijutsutecho/DESIGN.md) |
+| 能作 风格 | 日本品牌参考 · nousaku | 实测日系网页规范；明朝体、超広字間、Weight 200、Gold Accent、鋳物、錫、伝統工芸、静謐、用の美 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/nousaku/DESIGN.md) |
+| 茅乃舎 风格 | 日本品牌参考 · kayanoya | 实测日系网页规范；写真ヒーロー、薄暮、筑紫明朝、縦組み風の季節語、七十二候、濃褐 #1c130a、萱色 #5b5d22、白文字、広い字間（0.3〜0.5em）、角丸なし、palt なし | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kayanoya/DESIGN.md) |
+| 貝印 风格 | 日本品牌参考 · kai | 实测日系网页规范；静謐、軽やか、老舗の品格、白基調、システムフォント | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kai/DESIGN.md) |
+| 金子眼鏡 风格 | 日本品牌参考 · kaneko-optical | 实测日系网页规范；純黒の地、Adobe Garamond Pro、筑紫Aオールド明朝、中ゴシック BBB、広い字間（0.06〜0.18em）、大文字＋レタースペースの欧文、角丸ほぼ 0 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kaneko-optical/DESIGN.md) |
+| 金沢21世紀美術館 风格 | 日本品牌参考 · kanazawa21 | 实测日系网页规范；白地 / ブランドオレンジ一色 / 円（ピル） / SANAA / 公共性 / 写真主役 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kanazawa21/DESIGN.md) |
+| 釜浅商店 风格 | 日本品牌参考 · kamaasa | 实测日系网页规范；実直 / 温かい / 手仕事 / 落ち着き / 端正 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kamaasa/DESIGN.md) |
+| 開化堂 风格 | 日本品牌参考 · kaikado | 实测日系网页规范；ヒラギノ明朝、極細ウェイト200、銅色 #9d805f、行間2.0、余白、角ゼロ、線ボタン、単色、工芸 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/kaikado/DESIGN.md) |
+| 青山フラワーマーケット 风格 | 日本品牌参考 · aoyamaflowermarket | 实测日系网页规范；ボタニカル、エレガント、ナチュラルプレミアム、セリフ×ゴシックの二層構造、花のある暮らし | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/aoyamaflowermarket/DESIGN.md) |
+| 飛騨産業 风格 | 日本品牌参考 · hida | 实测日系网页规范；静謐 / 素木（しらき） / 端正 / 余白 / 職人的 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/hida/DESIGN.md) |
+| 高島屋 风格 | 日本品牌参考 · takashimaya | 实测日系网页规范；クラシカル、品格、クリムゾンレッド、デュアルフォントシステム、抑制された装飾 | 日语本地化、品牌参考和忠实界面复现 | [DESIGN.md](https://github.com/kzhrknt/awesome-design-md-jp/blob/main/design-md/takashimaya/DESIGN.md) |
 
 <a id="general-ui-design-languages"></a>
 
