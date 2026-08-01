@@ -4,7 +4,7 @@
 
 <p align="center">A human-readable, agent-ready atlas of UI design languages, specifications, and skills.</p>
 
-<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">Simplified Chinese</a></p>
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center"><a href="catalog.yaml">🤖 Agent Catalog</a> · <a href="AGENTS.md">🧭 Agent Guide</a></p>
 
