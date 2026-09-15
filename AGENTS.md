@@ -29,6 +29,10 @@ Use `default_skills` only when the selected style has no `skill_overrides` or st
 - `image_layer`: create supporting illustration or imagery after the base UI direction is fixed.
 - `motion_layer`: define motion after the base UI direction is fixed.
 
+Within `ui_audit`, use `interfaces` for evidence-based cross-discipline review of color, typography, layout, writing, accessibility, and component resilience. Its `variant` and `break` workflows are user-invoked and must not run implicitly.
+
+Generic interface guidance never overrides domain-specific visualization, accessibility, scientific, legal, or safety requirements.
+
 ## Brand and IP boundaries
 
 Brand and IP entries are reference directions. Do not copy protected assets, imply endorsement, or present an inspired result as official. Prefer the `-inspired` wording recorded in the catalog when the source is not an official design system.

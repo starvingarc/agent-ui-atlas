@@ -109,7 +109,7 @@ def render(catalog: dict, lang: str) -> str:
         (
             '<p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>'
             if zh
-            else '<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">Simplified Chinese</a></p>'
+            else '<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>'
         ),
         "",
         '<p align="center"><a href="catalog.yaml">🤖 Agent Catalog</a> · <a href="AGENTS.md">🧭 Agent Guide</a></p>',

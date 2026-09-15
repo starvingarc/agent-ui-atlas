@@ -866,6 +866,7 @@
 |---|---|---|---|
 | Anthropic Frontend Design | UI generation | Distinctive production-grade frontend design from a brief. | [Skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
 | Impeccable | Polish, critique | Systematic critique, typography, spacing, motion and finishing passes. | [Skill](https://github.com/pbakaus/impeccable) |
+| Interfaces | Cross-discipline UI audit, Color and typography, Variants and stress testing | Evidence-based interface review with focused guidance for accessibility, layout, writing, typography, color, polish, variants, and component stress testing. | [Skill](https://github.com/jakubkrehel/skills) |
 | Hallmark | Audit, redesign | Anti-generic design rules for greenfield work and audits. | [Skill](https://github.com/Nutlope/hallmark) |
 | UI Skills | Extraction, improvement | Creates DESIGN.md files and improves interfaces against design evidence. | [Skill](https://github.com/ibelick/ui-skills) |
 | Interface Design | Generation, consistency | Craft, memory and enforcement for coherent interface systems. | [Skill](https://github.com/Dammyjay93/interface-design) |

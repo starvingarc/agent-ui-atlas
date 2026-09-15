@@ -42,6 +42,7 @@ EXPECTED_SKILL_IDS = {
     "hallmark",
     "impeccable",
     "interface-design",
+    "interfaces",
     "lottiefiles-motion-design",
     "stitch-skills",
     "taste-skill",
@@ -51,7 +52,7 @@ EXPECTED_SKILL_IDS = {
 EXPECTED_DEFAULT_SKILLS = {
     "ui_generation": ["anthropic-frontend-design"],
     "visual_polish": ["impeccable"],
-    "ui_audit": ["hallmark", "vercel-web-design-guidelines"],
+    "ui_audit": ["hallmark", "vercel-web-design-guidelines", "interfaces"],
     "design_extraction": ["ui-skills", "dembrandt"],
     "image_layer": ["gpt-image-2-skill"],
     "motion_layer": ["lottiefiles-motion-design"],
@@ -248,7 +249,7 @@ def main() -> int:
                     fail(errors, f"{sid}: invalid {layer_type} layer {referenced}")
 
     skill_ids = {skill["id"] for skill in skills}
-    if len(skills) != 15 or skill_ids != EXPECTED_SKILL_IDS:
+    if len(skills) != 16 or skill_ids != EXPECTED_SKILL_IDS:
         fail(errors, f"skill catalog mismatch: {sorted(skill_ids ^ EXPECTED_SKILL_IDS)}")
     for skill in skills:
         if not ID_RE.fullmatch(skill["id"]):
