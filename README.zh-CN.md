@@ -866,6 +866,7 @@
 |---|---|---|---|
 | Anthropic Frontend Design | UI 生成 | 根据需求生成有辨识度的生产级前端。 | [Skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
 | Impeccable | 完善、评审 | 系统检查字体、间距、动效和最终完成度。 | [Skill](https://github.com/pbakaus/impeccable) |
+| Interfaces | 跨领域 UI 评审、配色与字体排版、方案变体与压力测试 | 以证据为基础评审界面，并分别覆盖无障碍、布局、文案、字体、配色、细节完善、方案变体和组件压力测试。 | [Skill](https://github.com/jakubkrehel/skills) |
 | Hallmark | 审查、重设计 | 为新界面和审查提供反模板化设计规则。 | [Skill](https://github.com/Nutlope/hallmark) |
 | UI Skills | 提取、改进 | 创建 DESIGN.md，并依据设计证据改进界面。 | [Skill](https://github.com/ibelick/ui-skills) |
 | Interface Design | 生成、一致性 | 通过设计记忆和约束保持界面系统一致。 | [Skill](https://github.com/Dammyjay93/interface-design) |

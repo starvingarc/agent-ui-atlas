@@ -8,6 +8,7 @@ default_skills:
   ui_audit:
   - hallmark
   - vercel-web-design-guidelines
+  - interfaces
   design_extraction:
   - ui-skills
   - dembrandt
@@ -113,6 +114,23 @@ skills:
     en: Systematic critique, typography, spacing, motion and finishing passes.
     zh: 系统检查字体、间距、动效和最终完成度。
   url: https://github.com/pbakaus/impeccable
+- id: interfaces
+  name: Interfaces
+  roles:
+    en:
+    - Cross-discipline UI audit
+    - Color and typography
+    - Variants and stress testing
+    zh:
+    - 跨领域 UI 评审
+    - 配色与字体排版
+    - 方案变体与压力测试
+  summary:
+    en: Evidence-based interface review with focused guidance for accessibility,
+      layout, writing, typography, color, polish, variants, and component stress
+      testing.
+    zh: 以证据为基础评审界面，并分别覆盖无障碍、布局、文案、字体、配色、细节完善、方案变体和组件压力测试。
+  url: https://github.com/jakubkrehel/skills
 - id: hallmark
   name: Hallmark
   roles:
