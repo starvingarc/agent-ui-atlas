@@ -6,6 +6,7 @@ from __future__ import annotations
 import re
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -15,9 +16,9 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_COUNTS = {
     "brand": 536,
-    "general": 161,
+    "general": 168,
     "game_ip_scene": 24,
-    "reference": 2,
+    "reference": 6,
     "image_layer": 36,
     "motion_layer": 18,
 }
@@ -32,6 +33,14 @@ RESOURCE_TYPES = {
     "motion_resource",
 }
 EXPECTED_SKILL_IDS = {
+    "stylekit",
+    "ui-ux-pro-max",
+    "emil-design-engineering",
+    "ux-ui-agent-skills",
+    "shadcn-ui",
+    "daisyui",
+    "userinterface-wiki",
+    "memi-design-skills",
     "agentation",
     "anthropic-frontend-design",
     "dembrandt",
@@ -156,21 +165,64 @@ def validate_display_language(errors: list[str], context: str, value: dict) -> N
             fail(errors, f"{context} Chinese text contains Japanese kana: {text}")
 
 
+def valid_https(url) -> bool:
+    if not isinstance(url, str) or any(ch.isspace() for ch in url):
+        return False
+    try:
+        parsed = urlparse(url)
+        return parsed.scheme == "https" and bool(parsed.hostname) and not parsed.username and not parsed.password
+    except ValueError:
+        return False
+
+
+def valid_date(value) -> bool:
+    try:
+        return isinstance(value, str) and date.fromisoformat(value).isoformat() == value
+    except ValueError:
+        return False
+
+
+def validate_previews(errors: list[str], context: str, record: dict) -> None:
+    previews = record.get("previews", [])
+    if not isinstance(previews, list):
+        fail(errors, f"{context}: previews must be a list")
+        return
+    seen = set()
+    for p in previews:
+        if not isinstance(p, dict):
+            fail(errors, f"{context}: preview must be an object")
+            continue
+        url = p.get("url")
+        if not valid_https(url):
+            fail(errors, f"{context}: invalid preview URL {url}")
+        elif url in seen:
+            fail(errors, f"{context}: duplicate preview URL {url}")
+        else:
+            seen.add(url)
+        if p.get("kind") not in {"interactive_demo", "showcase", "live_site"}:
+            fail(errors, f"{context}: invalid preview kind {p.get('kind')}")
+        validate_display_language(errors, f"{context}: preview label", p.get("label"))
+        if isinstance(p.get("label"), dict) and any(not p['label'].get(lang) for lang in ('en', 'zh')):
+            fail(errors, f"{context}: preview labels may not be empty")
+        if not valid_date(p.get("checked_on")):
+            fail(errors, f"{context}: checked_on must be an ISO date")
+
+
 def main() -> int:
     catalog = yaml.safe_load((ROOT / "catalog.yaml").read_text(encoding="utf-8"))
     errors: list[str] = []
     if catalog.get("schema_version") != 1:
         fail(errors, "schema_version must be 1")
-    if catalog.get("last_reviewed") != "2026-08-01":
-        fail(errors, "last_reviewed must be 2026-08-01")
+    if not valid_date(catalog.get("last_reviewed")):
+        fail(errors, "last_reviewed must be an ISO date")
 
     styles = catalog.get("styles", [])
     skills = catalog.get("skills", [])
     counts = Counter(style.get("category") for style in styles)
     if dict(counts) != EXPECTED_COUNTS:
         fail(errors, f"category counts mismatch: {dict(counts)}")
-    if len(styles) != 777:
-        fail(errors, f"expected 777 styles, found {len(styles)}")
+    if len(styles) != sum(EXPECTED_COUNTS.values()):
+        fail(errors, f"expected {sum(EXPECTED_COUNTS.values())} styles, found {len(styles)}")
 
     ids = [style.get("id") for style in styles]
     names = [style.get("name", {}).get("en") for style in styles]
@@ -186,6 +238,9 @@ def main() -> int:
     all_urls: list[str] = []
     for style in styles:
         sid = style.get("id", "<missing>")
+        validate_previews(errors, sid, style)
+        if "reviewed_on" in style and not valid_date(style["reviewed_on"]):
+            fail(errors, f"{sid}: invalid reviewed_on")
         if not ID_RE.fullmatch(sid):
             fail(errors, f"invalid style id: {sid}")
         category = style.get("category")
@@ -249,15 +304,29 @@ def main() -> int:
                     fail(errors, f"{sid}: invalid {layer_type} layer {referenced}")
 
     skill_ids = {skill["id"] for skill in skills}
-    if len(skills) != 16 or skill_ids != EXPECTED_SKILL_IDS:
+    if len(skills) != len(EXPECTED_SKILL_IDS) or skill_ids != EXPECTED_SKILL_IDS:
         fail(errors, f"skill catalog mismatch: {sorted(skill_ids ^ EXPECTED_SKILL_IDS)}")
     for skill in skills:
+        validate_previews(errors, skill['id'], skill)
         if not ID_RE.fullmatch(skill["id"]):
             fail(errors, f"invalid skill id: {skill['id']}")
         if urlparse(skill["url"]).scheme != "https":
             fail(errors, f"invalid skill URL: {skill['url']}")
         validate_display_language(errors, f"{skill['id']}: roles", skill.get("roles"))
         validate_display_language(errors, f"{skill['id']}: summary", skill.get("summary"))
+        if 'reviewed_on' in skill and not valid_date(skill['reviewed_on']):
+            fail(errors, f"{skill['id']}: invalid reviewed_on")
+    hubs = catalog.get("preview_hubs", [])
+    hub_ids = [hub.get("id") for hub in hubs]
+    if len(hub_ids) != len(set(hub_ids)):
+        fail(errors, "duplicate preview hub id")
+    for hub in hubs:
+        if not ID_RE.fullmatch(hub.get("id", "")) or not hub.get("name"):
+            fail(errors, "preview hubs require an id and name")
+        validate_display_language(errors, f"hub {hub.get('id')}: summary", hub.get("summary"))
+        if not hub.get("previews"):
+            fail(errors, f"hub {hub.get('id')}: at least one preview is required")
+        validate_previews(errors, f"hub {hub.get('id')}", hub)
     if catalog.get("default_skills") != EXPECTED_DEFAULT_SKILLS:
         fail(errors, "default_skills do not match the approved routing contract")
     for role, configured in catalog.get("default_skills", {}).items():

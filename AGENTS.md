@@ -18,6 +18,17 @@
 4. Treat a `background_theme` as scene direction only, never as component or layout guidance.
 5. If a linked skill cannot be installed or read, follow the available specification directly and do not claim that the skill ran.
 
+## Preview before implementation
+
+For visual selection, show a record's `previews` URL alongside its canonical resource. Do not build a demo merely to show a style when an upstream preview exists. Use `preview_hubs` when the user wants to browse or compare directions.
+
+- `interactive_demo`: an example with controls or a theme editor.
+- `showcase`: a visual example or gallery; do not promise full product behavior.
+- `live_site`: the current real website, which may differ from the recorded specification.
+- `checked_on`: the date of link/content review, not proof that every interaction was tested.
+
+Missing `previews` means no preview has been curated, not that none exists. Never substitute a code file or invent a demo URL. Preview links do not replace resource precedence, install a skill, or change default skill routing. `reviewed_on` records review of an individual new entry; top-level `last_reviewed` is the latest catalog update and does not certify every legacy entry.
+
 ## Default skills
 
 Use `default_skills` only when the selected style has no `skill_overrides` or style-specific skill resource:
@@ -43,6 +54,7 @@ Edit `catalog.yaml`, then run:
 
 ```bash
 python3 scripts/validate_catalog.py
+python3 -m unittest discover -s tests
 python3 scripts/render_readmes.py
 python3 scripts/render_readmes.py --check
 ```
