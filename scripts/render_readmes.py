@@ -51,6 +51,30 @@ def resource_links(resources: list[dict], lang: str) -> str:
     return " · ".join(links)
 
 
+PREVIEW_KINDS = {
+    "interactive_demo": {"en": "Interactive demo", "zh": "交互演示"},
+    "showcase": {"en": "Showcase", "zh": "风格展示"},
+    "live_site": {"en": "Live website", "zh": "真实网站"},
+}
+
+
+def preview_links(record: dict, lang: str) -> str:
+    previews = record.get("previews", [])
+    if not previews:
+        return "暂未收录" if lang == "zh" else "Not yet listed"
+    return " · ".join(
+        f"[{cell(p['label'][lang])}]({p['url']}) ({PREVIEW_KINDS[p['kind']][lang]})"
+        for p in previews
+    )
+
+
+def preview_hub_rows(catalog: dict, lang: str) -> list[str]:
+    return [
+        f"| {cell(hub['name'])} | {cell(hub['summary'][lang])} | {preview_links(hub, lang)} |"
+        for hub in catalog.get("preview_hubs", [])
+    ]
+
+
 def style_rows(catalog: dict, category: str, lang: str) -> list[str]:
     rows = []
     styles = sorted(
@@ -63,7 +87,7 @@ def style_rows(catalog: dict, category: str, lang: str) -> list[str]:
         cues = prose_list(style["visual_cues"][lang], lang)
         best_for = prose_list(style["best_for"][lang], lang)
         resources = resource_links(style["resources"], lang)
-        rows.append(f"| {name} | {aliases} | {cues} | {best_for} | {resources} |")
+        rows.append(f"| {name} | {aliases} | {cues} | {best_for} | {preview_links(style, lang)} | {resources} |")
     return rows
 
 
@@ -74,8 +98,13 @@ def quick_pick_rows(catalog: dict, lang: str, style_index: dict[str, dict]) -> l
         for style_id in group["style_ids"]:
             style = style_index[style_id]
             label = style["name"][lang]
-            url = style["resources"][0]["url"]
-            links.append(f"[{cell(label)}]({url})")
+            resource = next((r for r in style["resources"] if r.get("canonical")), style["resources"][0])
+            if style.get("previews"):
+                url = style["previews"][0]["url"]
+                spec = "规范" if lang == "zh" else "spec"
+                links.append(f"[{cell(label)}]({url}) ([{spec}]({resource['url']}))")
+            else:
+                links.append(f"[{cell(label)}]({resource['url']})")
         rows.append(f"| {cell(group['label'][lang])} | {' · '.join(links)} |")
     return rows
 
@@ -85,7 +114,7 @@ def skill_rows(catalog: dict, lang: str) -> list[str]:
     for skill in catalog["skills"]:
         roles = prose_list(skill["roles"][lang], lang)
         summary = cell(skill["summary"][lang])
-        rows.append(f"| {cell(skill['name'])} | {roles} | {summary} | [Skill]({skill['url']}) |")
+        rows.append(f"| {cell(skill['name'])} | {roles} | {summary} | {preview_links(skill, lang)} | [Skill]({skill['url']}) |")
     return rows
 
 
@@ -115,9 +144,9 @@ def render(catalog: dict, lang: str) -> str:
         '<p align="center"><a href="catalog.yaml">🤖 Agent Catalog</a> · <a href="AGENTS.md">🧭 Agent Guide</a></p>',
         "",
         (
-            f'<p align="center"><sub>最后核对：<strong>{catalog["last_reviewed"]}</strong></sub></p>'
+            f'<p align="center"><sub>目录更新：<strong>{catalog["last_reviewed"]}</strong></sub></p>'
             if zh
-            else f'<p align="center"><sub>Last reviewed: <strong>{catalog["last_reviewed"]}</strong></sub></p>'
+            else f'<p align="center"><sub>Catalog updated: <strong>{catalog["last_reviewed"]}</strong></sub></p>'
         ),
         "",
         (
@@ -128,6 +157,7 @@ def render(catalog: dict, lang: str) -> str:
         "",
         "## 🗺️ 目录" if zh else "## 🗺️ Contents",
         "",
+        "- [先看效果，再选风格](#try-before-building)" if zh else "- [Try Before Building](#try-before-building)",
         "- [按意图快速选择](#quick-picks)" if zh else "- [Quick Picks by Intent](#quick-picks)",
     ]
 
@@ -140,9 +170,37 @@ def render(catalog: dict, lang: str) -> str:
             "- [Agent 设计技能](#agent-design-skills)" if zh else "- [Agent Design Skills](#agent-design-skills)",
             "- [许可与声明](#license-and-disclaimer)" if zh else "- [License and Disclaimer](#license-and-disclaimer)",
             "",
+            '<a id="try-before-building"></a>',
+            "",
+            "## 👀 先看效果，再选风格" if zh else "## 👀 Try Before Building",
+            "",
+            (
+                "直接打开作者提供的展示、主题编辑器或真实网站，选好方向后再把同一行的规范交给 Agent。无需安装或自行实现演示。"
+                if zh else
+                "Open a publisher's showcase, theme editor or live website, then give the corresponding specification to your agent. No installation or local demo implementation needed."
+            ),
+            "",
+            (
+                f"已为 **{sum(bool(s.get('previews')) for s in catalog['styles'])} / {len(catalog['styles'])}** 条风格记录收录预览。交互演示提供可操作控件；风格展示用于观察效果；真实网站展示当前产品，可能与历史规范不同。其余条目标为“暂未收录”。"
+                if zh else
+                f"Previews are listed for **{sum(bool(s.get('previews')) for s in catalog['styles'])} / {len(catalog['styles'])}** style records. Interactive demos offer controls; showcases illustrate the look; live websites show current products and may differ from historical specifications. Other entries say “Not yet listed”."
+            ),
+            "",
+            (
+                "核对日期记录在 catalog.yaml 的 checked_on；它表示链接与内容核对日期，不代表全部交互经过实测。本轮更新范围与来源见 [更新说明](docs/updates/2026-10-26.md)。"
+                if zh else
+                "The catalog records checked_on for link and content review, not exhaustive interaction testing. See the [update notes](docs/updates/2026-10-26.md) for scope and sources."
+            ),
+            "",
+            "| 入口 | 可以看什么 | 打开体验 |" if zh else "| Resource | What to explore | Open preview |",
+            "|---|---|---|",
+            *preview_hub_rows(catalog, lang),
+            "",
             '<a id="quick-picks"></a>',
             "",
             "## 🧭 按意图快速选择" if zh else "## 🧭 Quick Picks by Intent",
+            "",
+            "有预览时，风格名称直接打开预览，旁边保留规范链接。" if zh else "When available, style names open previews; adjacent spec links retain the implementation reference.",
             "",
             "| 意图 | 可以从这些风格开始 |" if zh else "| Intent | Start With |",
             "|---|---|",
@@ -159,11 +217,11 @@ def render(catalog: dict, lang: str) -> str:
                 f"## {zh_title if zh else en_title}",
                 "",
                 (
-                    "| 风格名 | 英文名 / 别名 | 视觉特征 | 适合场景 | Agent 可用资源 |"
+                    "| 风格名 | 英文名 / 别名 | 视觉特征 | 适合场景 | 预览 / 体验 | Agent 可用资源 |"
                     if zh
-                    else "| Style | Alias | Visual Cues | Best For | Agent Resources |"
+                    else "| Style | Alias | Visual Cues | Best For | Preview / Try | Agent Resources |"
                 ),
-                "|---|---|---|---|---|",
+                "|---|---|---|---|---|---|",
                 *style_rows(catalog, category, lang),
             ]
         )
@@ -175,8 +233,8 @@ def render(catalog: dict, lang: str) -> str:
             "",
             "## 🛠️ Agent 设计技能" if zh else "## 🛠️ Agent Design Skills",
             "",
-            "| 技能 | 角色 | 擅长 | 来源 |" if zh else "| Skill | Role | Best At | Source |",
-            "|---|---|---|---|",
+            "| 技能 | 角色 | 擅长 | 预览 / 体验 | 来源 |" if zh else "| Skill | Role | Best At | Preview / Try | Source |",
+            "|---|---|---|---|---|",
             *skill_rows(catalog, lang),
             "",
             '<a id="license-and-disclaimer"></a>',

@@ -1,5 +1,5 @@
 schema_version: 1
-last_reviewed: '2026-08-01'
+last_reviewed: '2026-10-26'
 default_skills:
   ui_generation:
   - anthropic-frontend-design
@@ -286,6 +286,231 @@ skills:
     en: Produces art-directed image layers and technical visual assets.
     zh: 生成经过艺术指导的图像层和技术视觉素材。
   url: https://github.com/wuyoscar/GPT-Image2-Skill
+- id: stylekit
+  name: StyleKit
+  roles:
+    en:
+    - Style selection and implementation
+    zh:
+    - 风格选择与实现
+  summary:
+    en: Named styles with tokens, recipes, implementation rules and live showcases.
+    zh: 命名风格配套令牌、组件配方、实现规则与在线展示。
+  url: https://github.com/AnxForever/stylekit-skill
+  previews:
+  - url: https://www.stylekit.top/zh/styles
+    kind: showcase
+    label:
+      en: Style gallery
+      zh: 风格库
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: ui-ux-pro-max
+  name: UI UX Pro Max
+  roles:
+    en:
+    - Design intelligence
+    zh:
+    - 设计检索
+  summary:
+    en: Searchable styles, palettes, typography and stack-specific UI guidance.
+    zh: 可检索的风格、配色、字体组合及技术栈相关 UI 指南。
+  url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  reviewed_on: '2026-10-26'
+- id: emil-design-engineering
+  name: Emil Design Engineering
+  roles:
+    en:
+    - Interaction and motion
+    zh:
+    - 交互与动效
+  summary:
+    en: Animation choices, interaction polish, mobile behavior and stress testing.
+    zh: 动效选择、交互打磨、移动端行为与边界场景检查。
+  url: https://github.com/emilkowalski/skills
+  previews:
+  - url: https://emilkowal.ski/ui/7-practical-animation-tips
+    kind: showcase
+    label:
+      en: Motion examples
+      zh: 动效示例
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: ux-ui-agent-skills
+  name: UX/UI Agent Skills (XIAS)
+  roles:
+    en:
+    - Tokens, components and review
+    zh:
+    - 令牌、组件与评审
+  summary:
+    en: Design-system instructions, token-driven examples and executable quality gates; inspect examples
+      before adopting.
+    zh: 设计系统指令、令牌驱动示例与可执行质量检查；可先体验示例再选用。
+  url: https://github.com/plugin87/ux-ui-agent-skills
+  previews:
+  - url: https://plugin87.github.io/ux-ui-agent-skills/
+    kind: showcase
+    label:
+      en: Live screens
+      zh: 页面展示
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: shadcn-ui
+  name: shadcn/ui
+  roles:
+    en:
+    - Component composition
+    zh:
+    - 组件组合
+  summary:
+    en: Official project-aware guidance for components, registries, themes and presets.
+    zh: 官方技能，结合项目上下文处理组件、注册表、主题与预设。
+  url: https://ui.shadcn.com/docs/skills
+  previews:
+  - url: https://ui.shadcn.com/create
+    kind: interactive_demo
+    label:
+      en: Preset builder
+      zh: 预设编辑器
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: daisyui
+  name: daisyUI
+  roles:
+    en:
+    - Components and themes
+    zh:
+    - 组件与主题
+  summary:
+    en: Official daisyUI component and theme guidance; dashboard and chart add-ons are separate paid offerings.
+    zh: 官方 daisyUI 组件与主题指南；仪表盘和图表扩展另行付费。
+  url: https://daisyui.com/skills/
+  previews:
+  - url: https://daisyui.com/theme-generator/
+    kind: interactive_demo
+    label:
+      en: Theme generator
+      zh: 主题编辑器
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: userinterface-wiki
+  name: userinterface.wiki
+  roles:
+    en:
+    - Interface craft
+    zh:
+    - 界面细节
+  summary:
+    en: A living interface manual packaged for agents, with browser demos for its design rules.
+    zh: 面向 Agent 的持续更新界面手册，配有设计规则的浏览器示例。
+  url: https://www.userinterface.wiki/skill
+  previews:
+  - url: https://www.userinterface.wiki/demo
+    kind: showcase
+    label:
+      en: UI demos
+      zh: 界面示例
+    checked_on: '2026-10-26'
+  reviewed_on: '2026-10-26'
+- id: memi-design-skills
+  name: memi Design Skills
+  roles:
+    en:
+    - Product design workflows
+    zh:
+    - 产品设计工作流
+  summary:
+    en: A governed workflow catalog that distinguishes portable skills from tools requiring Figma, CLI
+      or MCP capabilities.
+    zh: 受治理的设计工作流目录，区分可独立使用的技能与依赖 Figma、CLI 或 MCP 的工作流。
+  url: https://github.com/memi-design/design-skills
+  reviewed_on: '2026-10-26'
+preview_hubs:
+- id: stylekit-gallery
+  name: StyleKit
+  summary:
+    en: Browse styles, then open the full showcase.
+    zh: 浏览风格并进入对应完整展示。
+  previews:
+  - url: https://www.stylekit.top/zh/styles
+    kind: showcase
+    label:
+      en: Browse styles
+      zh: 浏览风格
+    checked_on: '2026-10-26'
+- id: shadcn-presets
+  name: shadcn/ui
+  summary:
+    en: Try component presets and visual directions.
+    zh: 体验组件预设与视觉方向。
+  previews:
+  - url: https://ui.shadcn.com/create
+    kind: interactive_demo
+    label:
+      en: Try presets
+      zh: 体验预设
+    checked_on: '2026-10-26'
+- id: tweakcn
+  name: tweakcn
+  summary:
+    en: Adjust colors, typography and radii on live components.
+    zh: 在实际组件上调整颜色、字体与圆角。
+  previews:
+  - url: https://tweakcn.com/editor/theme
+    kind: interactive_demo
+    label:
+      en: Edit theme
+      zh: 编辑主题
+    checked_on: '2026-10-26'
+- id: daisyui-themes
+  name: daisyUI
+  summary:
+    en: Switch themes and adjust component styling.
+    zh: 切换主题并调整组件外观。
+  previews:
+  - url: https://daisyui.com/theme-generator/
+    kind: interactive_demo
+    label:
+      en: Try themes
+      zh: 体验主题
+    checked_on: '2026-10-26'
+- id: xias-screens
+  name: UX/UI Agent Skills
+  summary:
+    en: Open whole-product screens and component examples.
+    zh: 打开完整产品页面与组件示例。
+  previews:
+  - url: https://plugin87.github.io/ux-ui-agent-skills/
+    kind: showcase
+    label:
+      en: Browse screens
+      zh: 浏览页面
+    checked_on: '2026-10-26'
+- id: impeccable-demo
+  name: Impeccable
+  summary:
+    en: Explore the publisher’s sample interface and design commands.
+    zh: 查看作者提供的示例界面与设计命令。
+  previews:
+  - url: https://impeccable.style/
+    kind: interactive_demo
+    label:
+      en: Try sample
+      zh: 体验示例
+    checked_on: '2026-10-26'
+- id: interface-demos
+  name: userinterface.wiki
+  summary:
+    en: Explore small interface and motion demonstrations.
+    zh: 查看界面细节与动效示例。
+  previews:
+  - url: https://www.userinterface.wiki/demo
+    kind: showcase
+    label:
+      en: Browse demos
+      zh: 浏览示例
+    checked_on: '2026-10-26'
 styles:
 - id: and-premium
   category: brand
@@ -1296,6 +1521,13 @@ styles:
       zh: Better Design
     url: https://github.com/marvkr/better-design/tree/main/components/airbnb
     canonical: false
+  previews:
+  - url: https://www.airbnb.com/
+    kind: live_site
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: airtable
   category: brand
   sort_key: Airtable
@@ -2113,6 +2345,19 @@ styles:
   recommended_layers:
     motion:
     - apple-fluid-motion
+  previews:
+  - url: https://www.stylekit.top/styles/apple-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.apple.com/
+    kind: live_site
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: arc-browser
   category: brand
   sort_key: Arc Browser
@@ -8547,6 +8792,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/github-style.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/github-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: glico
   category: brand
   sort_key: Glico
@@ -8954,6 +9206,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/material-design.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/material-design/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: gov-uk
   category: brand
   sort_key: GOV.UK
@@ -14784,6 +15043,19 @@ styles:
       zh: Components
     url: https://github.com/marvkr/better-design/tree/main/components/linear-quality
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/linear-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://linear.app/
+    kind: live_site
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: lixil
   category: brand
   sort_key: LIXIL
@@ -16052,6 +16324,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/fluent-design.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/fluent-design/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: mikimoto
   category: brand
   sort_key: MIKIMOTO
@@ -18939,6 +19218,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/notion-style.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/notion-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.notion.com/
+    kind: live_site
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: notion-dev
   category: brand
   sort_key: Notion Dev
@@ -23346,6 +23638,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/shopify-clean.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/shopify-clean/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: shu-uemura
   category: brand
   sort_key: shu uemura
@@ -24633,6 +24932,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/stripe-style.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/stripe-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: studio
   category: brand
   sort_key: STUDIO
@@ -28426,6 +28732,13 @@ styles:
       zh: Better Design
     url: https://github.com/marvkr/better-design/tree/main/components/vercel
     canonical: false
+  previews:
+  - url: https://vercel.com/
+    kind: live_site
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: vermicular
   category: brand
   sort_key: Vermicular
@@ -30364,6 +30677,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/acid-graphics.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/acid-graphics/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: acme-warm-editorial
   category: general
   sort_key: Acme Warm Editorial
@@ -30454,6 +30774,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/african-textile.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/african-textile/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: agentic-conversational-ui
   category: general
   sort_key: Agentic Conversational UI
@@ -30544,6 +30871,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/anti-design.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/anti-design/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: apple-keynote-product-reveal
   category: general
   sort_key: Apple Keynote Product Reveal
@@ -30589,6 +30923,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/launch-keynote.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/launch-keynote/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: arcade-crt
   category: general
   sort_key: Arcade CRT
@@ -30634,6 +30975,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/arcade-crt.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/arcade-crt/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: art-deco
   category: general
   sort_key: Art Deco
@@ -30685,6 +31033,13 @@ styles:
       zh: Designer Skills
     url: https://github.com/julianoczkowski/designer-skills/blob/main/frontend-design/SKILL.md
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/art-deco/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: art-nouveau
   category: general
   sort_key: Art Nouveau
@@ -30730,6 +31085,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/art-nouveau.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/art-nouveau/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: astryx-butter
   category: general
   sort_key: Astryx Butter
@@ -31005,6 +31367,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/neon-gradient.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/neon-gradient/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: bauhaus-geometric
   category: general
   sort_key: Bauhaus Geometric
@@ -31062,6 +31431,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/geometric-bold.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/bauhaus/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/geometric-bold/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: beam-bordered-dark-ui
   category: general
   sort_key: Beam-Bordered Dark UI
@@ -31158,6 +31540,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/bento-grid.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/bento-grid/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: blueprint
   category: general
   sort_key: Blueprint
@@ -31203,6 +31592,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/blueprint.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/blueprint/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: bold-big-type-editorial
   category: general
   sort_key: Bold Big-Type Editorial
@@ -31259,6 +31655,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/oversized-typography.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/oversized-typography/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cafe-ui
   category: general
   sort_key: Cafe UI
@@ -31394,6 +31797,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cel-shading.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cel-shading/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cinematic-video-hero
   category: general
   sort_key: Cinematic Video Hero
@@ -31439,6 +31849,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cinematic-video-hero.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cinematic-video-hero/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: classic-mac-os
   category: general
   sort_key: Classic Mac OS
@@ -31535,6 +31952,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/claymorphism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: collage-art
   category: general
   sort_key: Collage Art
@@ -31580,6 +32004,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/collage-art.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/collage-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: comic-book-ui
   category: general
   sort_key: Comic Book UI
@@ -31633,6 +32064,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/comic-style.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/comic-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: constructivism
   category: general
   sort_key: Constructivism
@@ -31678,6 +32116,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/constructivism.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/constructivism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: corporate-clean
   category: general
   sort_key: Corporate Clean
@@ -31731,6 +32176,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/corporate-clean.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/corporate-clean/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cosmic-retro-futurism
   category: general
   sort_key: Cosmic Retro-Futurism
@@ -31821,6 +32273,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cottagecore.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cottagecore/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: creative-studio
   category: general
   sort_key: Creative Studio
@@ -31872,6 +32331,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/studio-bold.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/studio-bold/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cubism
   category: general
   sort_key: Cubism
@@ -31917,6 +32383,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cubism.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cubism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cyber-chinese
   category: general
   sort_key: Cyber Chinese
@@ -31962,6 +32435,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cyber-chinese.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cyber-chinese/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cyber-wafuu
   category: general
   sort_key: Cyber Wafuu
@@ -32007,6 +32487,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cyber-wafuu.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cyber-wafuu/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: cyberpunk-neon
   category: general
   sort_key: Cyberpunk Neon
@@ -32058,6 +32545,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/cyberpunk-neon/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: dark-academia
   category: general
   sort_key: Dark Academia
@@ -32103,6 +32597,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/dark-academia.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/dark-academia/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: dark-editorial
   category: general
   sort_key: Dark Editorial
@@ -32250,6 +32751,13 @@ styles:
       zh: Better Design
     url: https://github.com/marvkr/better-design/tree/main/components/corporate-fintech
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/data-dense/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: developer-terminal
   category: general
   sort_key: Developer Terminal
@@ -32301,6 +32809,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/developer-terminal.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/developer-terminal/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: dieter-rams-functional-minimalism
   category: general
   sort_key: Dieter Rams Functional Minimalism
@@ -32391,6 +32906,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/distill-style.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/distill-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: dithered-pixel-shade-ui
   category: general
   sort_key: Dithered Pixel-Shade UI
@@ -32481,6 +33003,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/dopamine-design.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/dopamine-design/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: dracula
   category: general
   sort_key: Dracula
@@ -32669,6 +33198,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/editorial.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/editorial/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: film-noir
   category: general
   sort_key: Film Noir
@@ -32714,6 +33250,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/film-noir.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/film-noir/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: flat-design
   category: general
   sort_key: Flat Design
@@ -32765,6 +33308,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/minimalist-flat.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/minimalist-flat/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: fresh-market
   category: general
   sort_key: Fresh Market
@@ -32818,6 +33368,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/fresh-market.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/fresh-market/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: friendly-geometric-candy
   category: general
   sort_key: Friendly Geometric Candy
@@ -32908,6 +33465,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/frutiger-aero.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/frutiger-aero/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: functional-brutalism
   category: general
   sort_key: Functional Brutalism
@@ -33010,6 +33574,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/gallery-dark.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/gallery-dark/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: gen-z-chaos
   category: general
   sort_key: Gen Z Chaos
@@ -33100,6 +33671,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/generative-art.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/generative-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: glassmorphism-bento
   category: general
   sort_key: Glassmorphism Bento
@@ -33163,6 +33741,13 @@ styles:
       zh: Better Design
     url: https://github.com/marvkr/better-design/tree/main/components/glassmorphic-dark
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/glassmorphism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: glitch-art
   category: general
   sort_key: Glitch Art
@@ -33208,6 +33793,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/glitch-art.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/glitch-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: gothic
   category: general
   sort_key: Gothic
@@ -33259,6 +33851,13 @@ styles:
       zh: Astryx
     url: https://github.com/facebook/astryx/tree/main/packages/themes/gothic
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/gothic/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: gothic-lolita
   category: general
   sort_key: Gothic Lolita
@@ -33304,6 +33903,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/gothic-lolita.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/gothic-lolita/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: graffiti-street
   category: general
   sort_key: Graffiti Street
@@ -33349,6 +33955,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/graffiti-street.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/graffiti-street/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: gruvbox
   category: general
   sort_key: Gruvbox
@@ -33439,6 +34052,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/hand-drawn-doodle.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/hand-drawn-doodle/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: high-end-soft-ui
   category: general
   sort_key: High-End Soft UI
@@ -33490,6 +34110,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/soft-ui.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/soft-ui/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: holographic
   category: general
   sort_key: Holographic
@@ -33535,6 +34162,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/holographic.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/holographic/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: immersive-exhibit-ui
   category: general
   sort_key: Immersive Exhibit UI
@@ -33624,6 +34258,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/immersive-photo.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/immersive-photo/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: impeccable-warm-poster
   category: general
   sort_key: Impeccable Warm Poster
@@ -33720,6 +34361,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/impressionist-oil.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/impressionist-oil/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: indian-festive
   category: general
   sort_key: Indian Festive
@@ -33765,6 +34413,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/indian-festive.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/indian-festive/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: industrial-brutalist-ui
   category: general
   sort_key: Industrial Brutalist UI
@@ -33906,6 +34561,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/islamic-geometric.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/islamic-geometric/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: japanese-fresh
   category: general
   sort_key: Japanese Fresh
@@ -33951,6 +34613,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/japanese-fresh.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/japanese-fresh/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: kami-paper-editorial
   category: general
   sort_key: Kami Paper Editorial
@@ -34041,6 +34710,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/kawaii-minimal.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/kawaii-minimal/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: kenya-hara-white-gallery
   category: general
   sort_key: Kenya Hara White Gallery
@@ -34137,6 +34813,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/korean-minimal.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/korean-minimal/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: latex-paper
   category: general
   sort_key: LaTeX Paper
@@ -34182,6 +34865,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/latex-paper.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/latex-paper/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: light-marketplace
   category: general
   sort_key: Light Marketplace
@@ -34286,6 +34976,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/liquid-glass/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: lumen-dark-ui
   category: general
   sort_key: Lumen Dark UI
@@ -34376,6 +35073,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/luxe-lookbook.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/luxe-lookbook/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: macos-vibrancy
   category: general
   sort_key: macOS Vibrancy
@@ -34421,6 +35125,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/macos-vibrancy.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/macos-vibrancy/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: magic-circle
   category: general
   sort_key: Magic Circle
@@ -34466,6 +35177,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/magic-circle.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/magic-circle/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: marble-luxury
   category: general
   sort_key: Marble Luxury
@@ -34517,6 +35235,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/luxury-retail.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/marble-luxury/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/luxury-retail/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: maximalism
   category: general
   sort_key: Maximalism
@@ -34570,6 +35301,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/maximalism.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/maximalism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: mecha
   category: general
   sort_key: Mecha
@@ -34615,6 +35353,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/mecha.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/mecha/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: medieval-manuscript
   category: general
   sort_key: Medieval Manuscript
@@ -34660,6 +35405,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/medieval-manuscript.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/medieval-manuscript/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: memphis-maximalism
   category: general
   sort_key: Memphis Maximalism
@@ -34717,6 +35469,13 @@ styles:
       zh: Designer Skills
     url: https://github.com/julianoczkowski/designer-skills/blob/main/frontend-design/SKILL.md
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/memphis/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: metal-fx-chromatic
   category: general
   sort_key: Metal FX Chromatic
@@ -34888,6 +35647,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/mid-century-modern.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/mid-century-modern/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: midnight-glass
   category: general
   sort_key: Midnight Glass
@@ -35124,6 +35890,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/modern-gradient.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/modern-gradient/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: monochrome
   category: general
   sort_key: Monochrome
@@ -35175,6 +35948,13 @@ styles:
       zh: Better Design
     url: https://github.com/marvkr/better-design/tree/main/components/neutral-monochrome
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/monochrome/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neo-brutalism
   category: general
   sort_key: Neo-Brutalism
@@ -35232,6 +36012,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/brutalist-web.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/neo-brutalist/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/brutalist-web/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neo-brutalist-playful
   category: general
   sort_key: Neo-Brutalist Playful
@@ -35285,6 +36078,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/neo-brutalist-playful.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/neo-brutalist-playful/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neo-brutalist-soft
   category: general
   sort_key: Neo-Brutalist Soft
@@ -35336,6 +36136,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/neo-brutalist-soft.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/neo-brutalist-soft/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neon-samurai
   category: general
   sort_key: Neon Samurai
@@ -35381,6 +36188,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/neon-samurai.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/neon-samurai/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neon-tokyo
   category: general
   sort_key: Neon Tokyo
@@ -35432,6 +36246,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/neon-tokyo.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/neon-tokyo/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: neumorphism
   category: general
   sort_key: Neumorphism
@@ -35489,6 +36310,13 @@ styles:
       zh: Components
     url: https://github.com/marvkr/better-design/tree/main/components/pillow-light
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/neumorphism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: nord
   category: general
   sort_key: Nord
@@ -35585,6 +36413,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/dark-mode.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/dark-mode/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: op-art
   category: general
   sort_key: Op Art
@@ -35630,6 +36465,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/op-art.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/op-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: orange-pulse-graphic-ui
   category: general
   sort_key: Orange Pulse Graphic UI
@@ -35726,6 +36568,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/natural-organic.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/natural-organic/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: outrun
   category: general
   sort_key: Outrun
@@ -35771,6 +36620,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/outrun.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/outrun/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: paper-craft
   category: general
   sort_key: Paper Craft
@@ -35816,6 +36672,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/paper-craft.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/paper-craft/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: particle-network-ui
   category: general
   sort_key: Particle Network UI
@@ -35869,6 +36732,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/particle.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/particle/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: pastel-goth
   category: general
   sort_key: Pastel Goth
@@ -35914,6 +36784,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/pastel-goth.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/pastel-goth/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: perspective-spatial-ui
   category: general
   sort_key: Perspective Spatial UI
@@ -36049,6 +36926,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/pop-art.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/pop-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: precision-light
   category: general
   sort_key: Precision Light
@@ -36184,6 +37068,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/risograph.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/risograph/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: rose-pine
   category: general
   sort_key: Rosé Pine
@@ -36280,6 +37171,13 @@ styles:
       zh: Designer Skills
     url: https://github.com/julianoczkowski/designer-skills/blob/main/frontend-design/SKILL.md
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/scandinavian/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: sci-fi-hud
   category: general
   sort_key: Sci-Fi HUD
@@ -36337,6 +37235,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/sci-fi-hud/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: shader-gradient
   category: general
   sort_key: Shader Gradient
@@ -36382,6 +37287,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/shader-gradient.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/shader-gradient/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: skeuomorphism
   category: general
   sort_key: Skeuomorphism
@@ -36433,6 +37345,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/skeuomorphism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: solarized
   category: general
   sort_key: Solarized
@@ -36523,6 +37442,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/solarpunk.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/solarpunk/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: spatial-ui-visionos
   category: general
   sort_key: Spatial UI (visionOS)
@@ -36613,6 +37539,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/steampunk.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/steampunk/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: storybook-fiction-ui
   category: general
   sort_key: Storybook Fiction UI
@@ -36699,6 +37632,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/surrealism.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/surrealism/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: swiss-international-style
   category: general
   sort_key: Swiss International Style
@@ -36756,6 +37696,13 @@ styles:
       zh: Designer Skills
     url: https://github.com/julianoczkowski/designer-skills/blob/main/frontend-design/SKILL.md
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/swiss-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: swiss-poster
   category: general
   sort_key: Swiss Poster
@@ -36800,6 +37747,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/swiss-poster.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/swiss-poster/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: synthwave
   category: general
   sort_key: Synthwave
@@ -36845,6 +37799,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/synthwave.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/synthwave/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: tactile-digital-ui
   category: general
   sort_key: Tactile Digital UI
@@ -36992,6 +37953,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/warm-organic.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/terracotta/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/warm-organic/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: tokyo-night
   category: general
   sort_key: Tokyo Night
@@ -37126,6 +38100,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/tropical-paradise.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/tropical-paradise/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: tv-split-flap-ui
   category: general
   sort_key: TV Split-Flap UI
@@ -37215,6 +38196,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/ukiyo-e-digital.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/ukiyo-e-digital/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: urdu-modern
   category: general
   sort_key: Urdu Modern
@@ -37356,6 +38344,13 @@ styles:
       zh: UI UX Pro Max
     url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/styles.csv
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/vaporwave/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: vhs-aesthetic
   category: general
   sort_key: VHS Aesthetic
@@ -37401,6 +38396,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/vhs-aesthetic.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/vhs-aesthetic/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: vibrant-dark-ui
   category: general
   sort_key: Vibrant Dark UI
@@ -37491,6 +38493,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/victorian-botanical.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/victorian-botanical/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: wabi-sabi
   category: general
   sort_key: Wabi-Sabi
@@ -37536,6 +38545,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/wabi-sabi.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/wabi-sabi/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: warm-dashboard
   category: general
   sort_key: Warm Dashboard
@@ -37589,6 +38605,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/warm-dashboard.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/warm-dashboard/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: windows-7-aero
   category: general
   sort_key: Windows 7 Aero
@@ -37634,6 +38657,13 @@ styles:
       zh: 7.css
     url: https://github.com/khang-nd/7.css
     canonical: true
+  previews:
+  - url: https://khang-nd.github.io/7.css/
+    kind: interactive_demo
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: windows-98
   category: general
   sort_key: Windows 98
@@ -37730,6 +38760,13 @@ styles:
       zh: XP.css
     url: https://github.com/botoxparty/XP.css
     canonical: true
+  previews:
+  - url: https://botoxparty.github.io/XP.css/
+    kind: interactive_demo
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: witchcore
   category: general
   sort_key: Witchcore
@@ -37775,6 +38812,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/witchcore.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/witchcore/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: y2k
   category: general
   sort_key: Y2K
@@ -37832,6 +38876,13 @@ styles:
       zh: Astryx
     url: https://github.com/facebook/astryx/tree/main/packages/themes/y2k
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/y2k/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: zen-garden
   category: general
   sort_key: Zen Garden
@@ -37877,6 +38928,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/zen-garden.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/zen-garden/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: 8-bit-desert-caravan-inn
   category: game_ip_scene
   sort_key: 8-bit Desert Caravan Inn
@@ -38327,6 +39385,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/cyber-anime.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/cyber-anime/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: ghibli-inspired
   category: game_ip_scene
   sort_key: Ghibli-inspired
@@ -38372,6 +39437,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/ghibli-style.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/ghibli-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: jrpg
   category: game_ip_scene
   sort_key: JRPG
@@ -38417,6 +39489,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/jrpg.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/jrpg/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: matrix-inspired-cyber-terminal
   category: game_ip_scene
   sort_key: Matrix-inspired Cyber Terminal
@@ -38507,6 +39586,13 @@ styles:
       zh: NES.css
     url: https://github.com/nostalgic-css/NES.css
     canonical: true
+  previews:
+  - url: https://nostalgic-css.github.io/NES.css/
+    kind: interactive_demo
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: old-school-fantasy-rpg-ui
   category: game_ip_scene
   sort_key: Old-School Fantasy RPG UI
@@ -38552,6 +39638,13 @@ styles:
       zh: RPGUI
     url: https://github.com/RonenNess/RPGUI
     canonical: true
+  previews:
+  - url: https://ronenness.github.io/RPGUI/
+    kind: interactive_demo
+    label:
+      en: Open example
+      zh: 打开示例
+    checked_on: '2026-10-26'
 - id: pac-man-inspired-arcade-ui
   category: game_ip_scene
   sort_key: Pac-Man-inspired Arcade UI
@@ -38642,6 +39735,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/pixel-anime.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/pixel-anime/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: sega-inspired-arcade-ui
   category: game_ip_scene
   sort_key: Sega-inspired Arcade UI
@@ -38731,6 +39831,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/shoujo-manga.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/shoujo-manga/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: snes-inspired-16-bit-ui
   category: game_ip_scene
   sort_key: SNES-inspired 16-bit UI
@@ -38956,6 +40063,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/visual-novel.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/visual-novel/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: understand-anything-knowledge-graph
   category: reference
   sort_key: Understand Anything Knowledge Graph
@@ -39846,6 +40960,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/ink-wash.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/ink-wash/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: isometric
   category: image_layer
   sort_key: Isometric
@@ -40209,6 +41330,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/pixel-art.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/pixel-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: plush-3d-pop
   category: image_layer
   sort_key: Plush 3D Pop
@@ -40440,6 +41568,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/retro-vintage.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/retro-vintage/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: risograph-scribble-print
   category: image_layer
   sort_key: Risograph Scribble Print
@@ -40587,6 +41722,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/sketch-style.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/sketch-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: watercolor
   category: image_layer
   sort_key: Watercolor
@@ -40643,6 +41785,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/watercolor-style.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/watercolor-art/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/watercolor-style/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: y2k-streetwear-sticker-collage
   category: image_layer
   sort_key: Y2K Streetwear Sticker Collage
@@ -40914,6 +42069,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/kinetic-typography.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/kinetic-typography/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: lottie-vector-motion
   category: motion_layer
   sort_key: Lottie Vector Motion
@@ -41106,6 +42268,19 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/parallax-sections.ts
     canonical: false
+  previews:
+  - url: https://www.stylekit.top/styles/parallax-editorial/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
+  - url: https://www.stylekit.top/styles/parallax-sections/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: playful-motion
   category: motion_layer
   sort_key: Playful Motion
@@ -41281,6 +42456,13 @@ styles:
       zh: StyleKit
     url: https://github.com/AnxForever/stylekit/blob/main/lib/styles/scrollytelling.ts
     canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/scrollytelling/showcase
+    kind: showcase
+    label:
+      en: StyleKit showcase
+      zh: StyleKit 风格展示
+    checked_on: '2026-10-26'
 - id: styleseed-float
   category: motion_layer
   sort_key: StyleSeed Float
@@ -41506,3 +42688,553 @@ styles:
       zh: StyleSeed motion
     url: https://github.com/bitjaru/styleseed/blob/main/engine/motion/README.md
     canonical: true
+- id: kinetic-constructivism
+  category: general
+  sort_key: Kinetic Constructivism
+  name:
+    en: Kinetic Constructivism
+    zh: 动力学构成主义
+  aliases:
+    en:
+    - Kinetic Constructivism
+    zh:
+    - 动力学构成主义
+  visual_cues:
+    en:
+    - Primary-color geometry
+    - Paper canvas
+    - Orbiting and marching shapes
+    zh:
+    - 原色几何图形
+    - 纸感底色
+    - 环绕与步进动效
+  best_for:
+    en:
+    - Creative portfolios
+    - Animated editorial
+    zh:
+    - 创意作品集
+    - 动态编辑页面
+  keywords:
+  - kinetic
+  - constructivism
+  - Kinetic Constructivism
+  - 动力学构成主义
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/kinetic-constructivism
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/kinetic-constructivism/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: broadcast-glitch
+  category: general
+  sort_key: Broadcast Glitch
+  name:
+    en: Broadcast Glitch
+    zh: 故障广播
+  aliases:
+    en:
+    - Broadcast Glitch
+    zh:
+    - 故障广播
+  visual_cues:
+    en:
+    - CRT darkness
+    - Channel offsets
+    - Stepped signal distortion
+    zh:
+    - CRT 深色背景
+    - 通道错位
+    - 阶梯式信号失真
+  best_for:
+    en:
+    - Music and event sites
+    - Experimental media
+    zh:
+    - 音乐与活动网站
+    - 实验性媒体
+  keywords:
+  - broadcast
+  - glitch
+  - Broadcast Glitch
+  - 故障广播
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/broadcast-glitch
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/broadcast-glitch/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: horizontal-gallery
+  category: general
+  sort_key: Horizontal Gallery
+  name:
+    en: Horizontal Gallery
+    zh: 横滚画廊
+  aliases:
+    en:
+    - Horizontal Gallery
+    zh:
+    - 横滚画廊
+  visual_cues:
+    en:
+    - Horizontal image rail
+    - Generous white space
+    - Small numbered captions
+    zh:
+    - 横向图片轨道
+    - 充裕留白
+    - 小号编号图注
+  best_for:
+    en:
+    - Photography portfolios
+    - Art collections
+    zh:
+    - 摄影作品集
+    - 艺术收藏展示
+  keywords:
+  - horizontal
+  - gallery
+  - Horizontal Gallery
+  - 横滚画廊
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/horizontal-gallery
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/horizontal-gallery/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: pastel-ui
+  category: general
+  sort_key: Pastel App UI
+  name:
+    en: Pastel App UI
+    zh: 粉彩应用风
+  aliases:
+    en:
+    - Pastel App UI
+    zh:
+    - 粉彩应用风
+  visual_cues:
+    en:
+    - Cream surfaces
+    - Lilac and mint accents
+    - Mobile content cards
+    zh:
+    - 奶油色表面
+    - 淡紫与薄荷点缀
+    - 移动端内容卡片
+  best_for:
+    en:
+    - Community apps
+    - Friendly content feeds
+    zh:
+    - 社区应用
+    - 亲和的内容流
+  keywords:
+  - pastel
+  - ui
+  - Pastel App UI
+  - 粉彩应用风
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/pastel-ui
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/pastel-ui/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: mobile-editorial
+  category: general
+  sort_key: Mobile Editorial
+  name:
+    en: Mobile Editorial
+    zh: 移动编辑风
+  aliases:
+    en:
+    - Mobile Editorial
+    zh:
+    - 移动编辑风
+  visual_cues:
+    en:
+    - Serif headlines
+    - Paper tones
+    - Compact magazine rhythm
+    zh:
+    - 衬线标题
+    - 纸张色调
+    - 紧凑的杂志节奏
+  best_for:
+    en:
+    - Mobile reading
+    - Culture and lifestyle apps
+    zh:
+    - 移动阅读
+    - 文化与生活方式应用
+  keywords:
+  - mobile
+  - editorial
+  - Mobile Editorial
+  - 移动编辑风
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/mobile-editorial
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/mobile-editorial/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: soft-utility
+  category: general
+  sort_key: Soft Utility
+  name:
+    en: Soft Utility
+    zh: 柔和工具风
+  aliases:
+    en:
+    - Soft Utility
+    zh:
+    - 柔和工具风
+  visual_cues:
+    en:
+    - Quiet surfaces
+    - Legible status colors
+    - Gentle control hierarchy
+    zh:
+    - 安静的表面
+    - 清楚的状态色
+    - 柔和的控件层级
+  best_for:
+    en:
+    - Daily mobile tools
+    - Personal productivity
+    zh:
+    - 日常移动工具
+    - 个人效率应用
+  keywords:
+  - soft
+  - utility
+  - Soft Utility
+  - 柔和工具风
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/soft-utility
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/soft-utility/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: quantized-line-field
+  category: general
+  sort_key: Quantized Line Field
+  name:
+    en: Quantized Line Field
+    zh: 量化线场
+  aliases:
+    en:
+    - Quantized Line Field
+    zh:
+    - 量化线场
+  visual_cues:
+    en:
+    - Variable-weight vertical lines
+    - Drifting grids
+    - Pointer-driven displacement
+    zh:
+    - 不同粗细的竖线
+    - 缓慢流动的网格
+    - 指针驱动的位移
+  best_for:
+    en:
+    - Generative identity
+    - Experimental hero sections
+    zh:
+    - 生成式视觉标识
+    - 实验性首屏
+  keywords:
+  - quantized
+  - line
+  - field
+  - Quantized Line Field
+  - 量化线场
+  resources:
+  - type: design_spec
+    label:
+      en: Specification
+      zh: 规范
+    url: https://www.stylekit.top/api/styles/quantized-line-field
+    canonical: true
+  previews:
+  - url: https://www.stylekit.top/styles/quantized-line-field/showcase
+    kind: showcase
+    label:
+      en: Preview
+      zh: 预览
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - stylekit
+  reviewed_on: '2026-10-26'
+- id: shadcn-ui-system
+  category: reference
+  sort_key: shadcn/ui System
+  name:
+    en: shadcn/ui System
+    zh: shadcn/ui 组件系统
+  aliases:
+    en:
+    - shadcn/ui System
+    zh:
+    - shadcn/ui 组件系统
+  visual_cues:
+    en:
+    - Semantic color tokens
+    - Consistent controls
+    - Configurable presets
+    zh:
+    - 语义颜色令牌
+    - 一致的控件
+    - 可配置预设
+  best_for:
+    en:
+    - Product interfaces
+    - Dashboards
+    zh:
+    - 产品界面
+    - 仪表盘
+  keywords:
+  - shadcn
+  - ui
+  - system
+  - shadcn/ui System
+  - shadcn/ui 组件系统
+  resources:
+  - type: component_library
+    label:
+      en: Specification
+      zh: 规范
+    url: https://ui.shadcn.com/docs
+    canonical: true
+  previews:
+  - url: https://ui.shadcn.com/create
+    kind: interactive_demo
+    label:
+      en: Try presets
+      zh: 体验预设
+    checked_on: '2026-10-26'
+  - url: https://tweakcn.com/editor/theme
+    kind: interactive_demo
+    label:
+      en: tweakcn theme editor
+      zh: tweakcn 主题编辑器
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - shadcn-ui
+  reviewed_on: '2026-10-26'
+- id: daisyui-theme-system
+  category: reference
+  sort_key: daisyUI Theme System
+  name:
+    en: daisyUI Theme System
+    zh: daisyUI 主题系统
+  aliases:
+    en:
+    - daisyUI Theme System
+    zh:
+    - daisyUI 主题系统
+  visual_cues:
+    en:
+    - Semantic CSS classes
+    - Themeable controls
+    - Adjustable color and radius
+    zh:
+    - 语义 CSS 类
+    - 可换肤控件
+    - 可调配色与圆角
+  best_for:
+    en:
+    - Themed applications
+    - Rapid UI composition
+    zh:
+    - 多主题应用
+    - 快速界面组合
+  keywords:
+  - daisyui
+  - theme
+  - system
+  - daisyUI Theme System
+  - daisyUI 主题系统
+  resources:
+  - type: component_library
+    label:
+      en: Specification
+      zh: 规范
+    url: https://daisyui.com/components/
+    canonical: true
+  previews:
+  - url: https://daisyui.com/theme-generator/
+    kind: interactive_demo
+    label:
+      en: Try themes
+      zh: 体验主题
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - daisyui
+  reviewed_on: '2026-10-26'
+- id: xias-atlas-dashboard
+  category: reference
+  sort_key: XIAS Atlas Dashboard
+  name:
+    en: XIAS Atlas Dashboard
+    zh: XIAS Atlas 仪表盘
+  aliases:
+    en:
+    - XIAS Atlas Dashboard
+    zh:
+    - XIAS Atlas 仪表盘
+  visual_cues:
+    en:
+    - Dominant revenue metric
+    - Varied chart forms
+    - Light and dark tokens
+    zh:
+    - 突出的收入指标
+    - 多种图表形式
+    - 明暗主题令牌
+  best_for:
+    en:
+    - Analytics consoles
+    - Business dashboards
+    zh:
+    - 分析控制台
+    - 业务仪表盘
+  keywords:
+  - xias
+  - atlas
+  - dashboard
+  - XIAS Atlas Dashboard
+  - XIAS Atlas 仪表盘
+  resources:
+  - type: component_library
+    label:
+      en: Specification
+      zh: 规范
+    url: https://github.com/plugin87/ux-ui-agent-skills/tree/main/examples/showcase
+    canonical: true
+  previews:
+  - url: https://plugin87.github.io/ux-ui-agent-skills/showcase/
+    kind: interactive_demo
+    label:
+      en: Try dashboard
+      zh: 体验仪表盘
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - ux-ui-agent-skills
+  reviewed_on: '2026-10-26'
+- id: xias-meridian-terminal
+  category: reference
+  sort_key: XIAS Meridian Terminal
+  name:
+    en: XIAS Meridian Terminal
+    zh: XIAS Meridian 终端
+  aliases:
+    en:
+    - XIAS Meridian Terminal
+    zh:
+    - XIAS Meridian 终端
+  visual_cues:
+    en:
+    - Dense market panels
+    - Compact charts
+    - Structured data hierarchy
+    zh:
+    - 密集市场面板
+    - 紧凑图表
+    - 结构化数据层级
+  best_for:
+    en:
+    - Dense monitoring screens
+    - Trading UI references
+    zh:
+    - 高密度监控界面
+    - 交易界面参考
+  keywords:
+  - xias
+  - meridian
+  - terminal
+  - XIAS Meridian Terminal
+  - XIAS Meridian 终端
+  resources:
+  - type: component_library
+    label:
+      en: Specification
+      zh: 规范
+    url: https://github.com/plugin87/ux-ui-agent-skills
+    canonical: true
+  previews:
+  - url: https://plugin87.github.io/ux-ui-agent-skills/terminal/
+    kind: interactive_demo
+    label:
+      en: Try terminal
+      zh: 体验终端
+    checked_on: '2026-10-26'
+  skill_overrides:
+  - ux-ui-agent-skills
+  reviewed_on: '2026-10-26'
